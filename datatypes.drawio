@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T18:02:03.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="x3VR8MJVQvywkdLwoUYi" version="18.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-15T18:02:35.345Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="GEQNVOa5Nh1MbYDfuiGD" version="18.0.3" type="github" pages="5">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Data Types">
     <mxGraphModel dx="3423" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#182E3E" math="0" shadow="0">
       <root>
@@ -356,16 +356,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NDx5D0sPnz6aNsQRAlNF-1" value="Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="242" y="231" width="226" height="120" as="geometry" />
+          <mxGeometry x="242" y="231" width="226" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NDx5D0sPnz6aNsQRAlNF-2" value="Struct with field names" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NDx5D0sPnz6aNsQRAlNF-1">
+        <mxCell id="NDx5D0sPnz6aNsQRAlNF-2" value="Option&lt;T&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NDx5D0sPnz6aNsQRAlNF-1">
           <mxGeometry y="30" width="226" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NDx5D0sPnz6aNsQRAlNF-3" value="Tuple Struct without field names" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NDx5D0sPnz6aNsQRAlNF-1">
+        <mxCell id="NDx5D0sPnz6aNsQRAlNF-3" value="Result&lt;T, E&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NDx5D0sPnz6aNsQRAlNF-1">
           <mxGeometry y="60" width="226" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NDx5D0sPnz6aNsQRAlNF-4" value="Unit-Like Struct without fields" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="NDx5D0sPnz6aNsQRAlNF-1">
-          <mxGeometry y="90" width="226" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
