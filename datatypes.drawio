@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T18:40:25.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="w1wIbefZhp11JUubYmvw" version="18.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-17T18:42:16.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="Bolge57WAHVgMXnzrFxe" version="18.0.4" type="github" pages="6">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Data Types">
     <mxGraphModel dx="1900" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#182E3E" math="0" shadow="0">
       <root>
@@ -366,7 +366,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ucp7L9JRLDsfzEKNS4EL" name="Smart Pointers">
-    <mxGraphModel dx="684" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="720" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -431,7 +431,7 @@
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-7" value="indirection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-6" target="TrG1B_kzWg2JUM-G5ZKf-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TrG1B_kzWg2JUM-G5ZKf-6" value="&amp;lt;&amp;lt;solution&amp;gt;&amp;gt;&lt;br&gt;recursive types" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="TrG1B_kzWg2JUM-G5ZKf-6" value="&amp;lt;&amp;lt;solution&amp;gt;&amp;gt;&lt;br&gt;size of type unknown at compile time, e.g. recursive types" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="210" y="180" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-8" value="Deref Trait" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
