@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T18:42:16.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="Bolge57WAHVgMXnzrFxe" version="18.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-18T13:42:22.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="E4aSokMCqUW8V2k-X0Bi" version="18.0.4" type="github" pages="6">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Data Types">
     <mxGraphModel dx="1900" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#182E3E" math="0" shadow="0">
       <root>
@@ -366,7 +366,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ucp7L9JRLDsfzEKNS4EL" name="Smart Pointers">
-    <mxGraphModel dx="720" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1093" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -387,8 +387,8 @@
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-25" value="downgrade" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-2" target="TrG1B_kzWg2JUM-G5ZKf-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="510" />
-              <mxPoint x="320" y="510" />
+              <mxPoint x="320" y="640" />
+              <mxPoint x="320" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -398,35 +398,38 @@
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-40" value="in" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-2" target="TrG1B_kzWg2JUM-G5ZKf-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="390" y="580" />
-              <mxPoint x="390" y="580" />
+              <mxPoint x="390" y="710" />
+              <mxPoint x="390" y="710" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="TrG1B_kzWg2JUM-G5ZKf-43" value="thread safe" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-2" target="TrG1B_kzWg2JUM-G5ZKf-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-2" value="&lt;b&gt;Rc&amp;lt;T&amp;gt;&lt;br&gt;&lt;/b&gt;(single threaded, immutable references)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="360" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-30" value="in" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-4" target="TrG1B_kzWg2JUM-G5ZKf-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="570" />
-              <mxPoint x="440" y="570" />
+              <mxPoint x="440" y="700" />
+              <mxPoint x="440" y="700" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-4" value="&lt;b&gt;RcCell&amp;lt;T&amp;gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="360" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-24" value="upgrade" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-5" target="TrG1B_kzWg2JUM-G5ZKf-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="530" />
-              <mxPoint x="320" y="530" />
+              <mxPoint x="320" y="660" />
+              <mxPoint x="320" y="660" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-5" value="&lt;b&gt;Weak&amp;lt;T&amp;gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="130" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-7" value="indirection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-6" target="TrG1B_kzWg2JUM-G5ZKf-1">
           <mxGeometry relative="1" as="geometry" />
@@ -459,32 +462,35 @@
           <mxGeometry x="900" y="350" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-27" value="Rc::clone()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="495" width="90" height="50" as="geometry" />
+          <mxGeometry x="660" y="625" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-34" value="uses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-33" target="TrG1B_kzWg2JUM-G5ZKf-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-33" value="&amp;lt;&amp;lt;solution&amp;gt;&amp;gt;&lt;br&gt;interior mutability" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="120" y="710" width="160" height="60" as="geometry" />
+          <mxGeometry x="120" y="840" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-35">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="600" as="targetPoint" />
+            <mxPoint x="450" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-35" value="&amp;lt;&amp;lt;solution&amp;gt;&amp;gt;&lt;br&gt;multiple owners with interior mutability" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="550" y="600" width="160" height="60" as="geometry" />
+          <mxGeometry x="550" y="730" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=160;exitDy=37.5;exitPerimeter=0;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="600" as="targetPoint" />
+            <mxPoint x="380" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-41" value="can be prevented by" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-37" target="TrG1B_kzWg2JUM-G5ZKf-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-37" value="&amp;lt;&amp;lt;problem&amp;gt;&amp;gt;&lt;br&gt;be careful of reference cycles" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="110" y="600" width="160" height="60" as="geometry" />
+          <mxGeometry x="110" y="730" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TrG1B_kzWg2JUM-G5ZKf-42" value="&lt;b&gt;Arc&amp;lt;T&amp;gt;&lt;br&gt;&lt;/b&gt;(Atomic reference counting)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
