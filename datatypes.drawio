@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T13:46:30.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="SsEUeRJPQvynSknvHZQm" version="18.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-18T15:40:55.247Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="YPoFKRCfsaw9N6Q7mwin" version="18.0.4" type="github" pages="6">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Data Types">
     <mxGraphModel dx="1900" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#182E3E" math="0" shadow="0">
       <root>
@@ -366,7 +366,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ucp7L9JRLDsfzEKNS4EL" name="Smart Pointers">
-    <mxGraphModel dx="1093" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2373" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -395,27 +395,19 @@
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-28" value="reference count +1&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-2" target="TrG1B_kzWg2JUM-G5ZKf-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TrG1B_kzWg2JUM-G5ZKf-40" value="in" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-2" target="TrG1B_kzWg2JUM-G5ZKf-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="390" y="710" />
-              <mxPoint x="390" y="710" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-43" value="thread safe" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-2" target="TrG1B_kzWg2JUM-G5ZKf-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TrG1B_kzWg2JUM-G5ZKf-2" value="&lt;b&gt;Rc&amp;lt;T&amp;gt;&lt;br&gt;&lt;/b&gt;(single threaded, immutable references)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="360" y="620" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TrG1B_kzWg2JUM-G5ZKf-30" value="in" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-4" target="TrG1B_kzWg2JUM-G5ZKf-2">
+        <mxCell id="TrG1B_kzWg2JUM-G5ZKf-48" value="mutiple onwer&lt;br&gt;with interior mutability" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-2" target="TrG1B_kzWg2JUM-G5ZKf-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="700" />
-              <mxPoint x="440" y="700" />
+              <mxPoint x="420" y="760" />
+              <mxPoint x="420" y="760" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TrG1B_kzWg2JUM-G5ZKf-2" value="&lt;b&gt;Rc&amp;lt;T&amp;gt;&lt;br&gt;&lt;/b&gt;(single threaded, immutable references)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-4" value="&lt;b&gt;RcCell&amp;lt;T&amp;gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="360" y="780" width="120" height="60" as="geometry" />
@@ -446,11 +438,11 @@
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-9" value="DropTrait" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="350" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TrG1B_kzWg2JUM-G5ZKf-16" value="works on" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-14" target="TrG1B_kzWg2JUM-G5ZKf-8">
+        <mxCell id="TrG1B_kzWg2JUM-G5ZKf-16" value="perform on arguments &lt;br&gt;to function and method" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-14" target="TrG1B_kzWg2JUM-G5ZKf-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-14" value="Deref Coercion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="750" y="240" width="110" height="60" as="geometry" />
+          <mxGeometry x="840" y="240" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-17" value="Drop::drop()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="350" width="100" height="40" as="geometry" />
@@ -470,17 +462,9 @@
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-33" value="&amp;lt;&amp;lt;solution&amp;gt;&amp;gt;&lt;br&gt;interior mutability" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="120" y="840" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TrG1B_kzWg2JUM-G5ZKf-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-35">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="730" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TrG1B_kzWg2JUM-G5ZKf-35" value="&amp;lt;&amp;lt;solution&amp;gt;&amp;gt;&lt;br&gt;multiple owners with interior mutability" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="550" y="730" width="160" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=160;exitDy=37.5;exitPerimeter=0;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="730" as="targetPoint" />
+            <mxPoint x="360" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TrG1B_kzWg2JUM-G5ZKf-41" value="can be prevented by" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TrG1B_kzWg2JUM-G5ZKf-37" target="TrG1B_kzWg2JUM-G5ZKf-5">
