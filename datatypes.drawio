@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T19:27:55.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="JeBnLAXxOg15up4JVWS2" version="18.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-19T19:35:46.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="u8DseKy6QVJ9e9z56eij" version="18.0.4" type="github" pages="7">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Data Types">
     <mxGraphModel dx="1900" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#182E3E" math="0" shadow="0">
       <root>
@@ -494,7 +494,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ECfI-ngvGaR07kw6PAeK" name="pattern match">
-    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -513,11 +513,24 @@
         <mxCell id="NFQq9ZwehKfr6Q-YvYqe-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="NFQq9ZwehKfr6Q-YvYqe-1" target="NFQq9ZwehKfr6Q-YvYqe-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NFQq9ZwehKfr6Q-YvYqe-13" value="ignore entire value" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="NFQq9ZwehKfr6Q-YvYqe-1" target="NFQq9ZwehKfr6Q-YvYqe-12">
+          <mxGeometry x="0.5333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NFQq9ZwehKfr6Q-YvYqe-18" value="ignore unused variable" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="NFQq9ZwehKfr6Q-YvYqe-1" target="NFQq9ZwehKfr6Q-YvYqe-17">
+          <mxGeometry x="0.6757" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NFQq9ZwehKfr6Q-YvYqe-20" value="ignore remainings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="NFQq9ZwehKfr6Q-YvYqe-1" target="NFQq9ZwehKfr6Q-YvYqe-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NFQq9ZwehKfr6Q-YvYqe-1" value="Pattern" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="350" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NFQq9ZwehKfr6Q-YvYqe-2" value="let &lt;i&gt;Pattern&lt;/i&gt; = &lt;i&gt;Expression&lt;/i&gt;;" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="100" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NFQq9ZwehKfr6Q-YvYqe-4" value="if let &lt;i&gt;Pattern &lt;/i&gt;= &lt;i&gt;Expression&lt;/i&gt;&lt;br&gt;else if let &lt;i&gt;Pattern = Expression&lt;br&gt;&lt;/i&gt;else if ..&lt;br&gt;else .." style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="510" y="340" width="180" height="120" as="geometry" />
@@ -530,6 +543,18 @@
         </mxCell>
         <mxCell id="NFQq9ZwehKfr6Q-YvYqe-10" value="for &lt;i&gt;Pattern &lt;/i&gt;in &lt;i&gt;Expression&lt;/i&gt;" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="750" y="370" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NFQq9ZwehKfr6Q-YvYqe-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;_&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NFQq9ZwehKfr6Q-YvYqe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="NFQq9ZwehKfr6Q-YvYqe-1" target="NFQq9ZwehKfr6Q-YvYqe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NFQq9ZwehKfr6Q-YvYqe-17" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;_name&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NFQq9ZwehKfr6Q-YvYqe-19" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;..&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
