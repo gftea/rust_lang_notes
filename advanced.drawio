@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T19:53:28.748Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="HW7ZGnqfjYZGCd35shGL" version="18.1.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-21T20:17:32.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="yq6gsDhh305dMwPjstjb" version="18.1.1" type="github" pages="5">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
     <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -219,23 +219,69 @@
         <mxCell id="GjaIbwXeaAuVUG4zLlBY-1" value="Function pointer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="138" y="235" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GjaIbwXeaAuVUG4zLlBY-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="GjaIbwXeaAuVUG4zLlBY-2" target="GjaIbwXeaAuVUG4zLlBY-5">
+        <mxCell id="GjaIbwXeaAuVUG4zLlBY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="GjaIbwXeaAuVUG4zLlBY-2" target="GjaIbwXeaAuVUG4zLlBY-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GjaIbwXeaAuVUG4zLlBY-2" value="Closure Trait" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="138" y="414" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GjaIbwXeaAuVUG4zLlBY-8" value="always implements" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="GjaIbwXeaAuVUG4zLlBY-3" target="GjaIbwXeaAuVUG4zLlBY-7">
+        <mxCell id="GjaIbwXeaAuVUG4zLlBY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="GjaIbwXeaAuVUG4zLlBY-2" target="GjaIbwXeaAuVUG4zLlBY-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjaIbwXeaAuVUG4zLlBY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="GjaIbwXeaAuVUG4zLlBY-2" target="GjaIbwXeaAuVUG4zLlBY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjaIbwXeaAuVUG4zLlBY-2" value="Closure Traits" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="77" y="454" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GjaIbwXeaAuVUG4zLlBY-8" value="auto implements&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="GjaIbwXeaAuVUG4zLlBY-3" target="GjaIbwXeaAuVUG4zLlBY-5">
+          <mxGeometry x="0.0255" y="-4" relative="1" as="geometry">
+            <mxPoint x="547.0000488281248" y="264.9999755859376" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GjaIbwXeaAuVUG4zLlBY-3" value="&lt;span style=&quot;color: rgb(157, 0, 236); font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(246, 247, 246); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;fn&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="298.000048828125" y="250.99997558593748" width="35" height="28" as="geometry" />
         </mxCell>
         <mxCell id="GjaIbwXeaAuVUG4zLlBY-5" value="&lt;span style=&quot;color: rgb(157, 0, 236); font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(246, 247, 246); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Fn&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="317.000048828125" y="429.9999755859375" width="35" height="28" as="geometry" />
+          <mxGeometry x="366.000048828125" y="429.9999755859375" width="35" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="GjaIbwXeaAuVUG4zLlBY-7" value="Fn, FnMut, FnOnce" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="490.00004882812505" y="234.99997558593748" width="120" height="60" as="geometry" />
+        <mxCell id="GjaIbwXeaAuVUG4zLlBY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="GjaIbwXeaAuVUG4zLlBY-10" target="GjaIbwXeaAuVUG4zLlBY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjaIbwXeaAuVUG4zLlBY-10" value="&amp;lt;&amp;lt;Note&amp;gt;&amp;gt;&lt;br&gt;Funciton pointer is a type not a trait" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="118" y="129" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GjaIbwXeaAuVUG4zLlBY-13" value="&lt;span style=&quot;color: rgb(157, 0, 236); font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(246, 247, 246); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;FnMut&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="366" y="470" width="48" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="GjaIbwXeaAuVUG4zLlBY-14" value="&lt;span style=&quot;color: rgb(157, 0, 236); font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(246, 247, 246); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;FnOnce&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="366" y="520" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="GjaIbwXeaAuVUG4zLlBY-18" value="auto implements&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GjaIbwXeaAuVUG4zLlBY-3" target="GjaIbwXeaAuVUG4zLlBY-13">
+          <mxGeometry x="0.1118" relative="1" as="geometry">
+            <mxPoint x="343.0000488281248" y="275" as="sourcePoint" />
+            <mxPoint x="410.5" y="439.9999755859376" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="439" y="265" />
+              <mxPoint x="439" y="484" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjaIbwXeaAuVUG4zLlBY-19" value="auto implements&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GjaIbwXeaAuVUG4zLlBY-3" target="GjaIbwXeaAuVUG4zLlBY-14">
+          <mxGeometry x="0.2293" y="2" relative="1" as="geometry">
+            <mxPoint x="353.0000488281248" y="285" as="sourcePoint" />
+            <mxPoint x="420.5" y="449.9999755859376" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="491" y="265" />
+              <mxPoint x="491" y="534" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjaIbwXeaAuVUG4zLlBY-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="GjaIbwXeaAuVUG4zLlBY-22" target="GjaIbwXeaAuVUG4zLlBY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjaIbwXeaAuVUG4zLlBY-22" value="&amp;lt;&amp;lt;Note&amp;gt;&amp;gt;&lt;br&gt;Trait size is unknown during compile time" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="57" y="568" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
