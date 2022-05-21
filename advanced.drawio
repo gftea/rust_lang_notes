@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T14:48:20.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="wWQND9WAq5P1Zku8I75z" version="18.1.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-21T15:23:19.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="jBDZpJw7euyZB_VY8FRn" version="18.1.1" type="github" pages="5">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
-    <mxGraphModel dx="2254" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxahQNM6jeI8Uw0J8JKW-1" target="WxahQNM6jeI8Uw0J8JKW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxahQNM6jeI8Uw0J8JKW-1" target="WxahQNM6jeI8Uw0J8JKW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxahQNM6jeI8Uw0J8JKW-1" target="WxahQNM6jeI8Uw0J8JKW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxahQNM6jeI8Uw0J8JKW-1" target="WxahQNM6jeI8Uw0J8JKW-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-1" value="Use cases" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="272" y="188" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-2" value="Dereference a raw pointer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WxahQNM6jeI8Uw0J8JKW-1">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-3" value="Call an unsafe function or method" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WxahQNM6jeI8Uw0J8JKW-1">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-5" value="Access or modify a mutable static variable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WxahQNM6jeI8Uw0J8JKW-1">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-4" value="Implement an unsafe trait" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WxahQNM6jeI8Uw0J8JKW-1">
+          <mxGeometry y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-6" value="Access fields of union" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="WxahQNM6jeI8Uw0J8JKW-1">
+          <mxGeometry y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-10" value="*const i32&lt;br&gt;*mut i32" style="whiteSpace=wrap;html=1;fontStyle=0;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="100" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-12" value="unsafe {}&lt;br&gt;unsafe &lt;b&gt;fn&lt;/b&gt;&lt;br&gt;unsafe &lt;b&gt;trait&lt;/b&gt;&lt;br&gt;unsafe &lt;b&gt;impl&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontStyle=0;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="272" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-14" value="mutable &lt;b&gt;static &lt;/b&gt;variable is unsafe" style="whiteSpace=wrap;html=1;fontStyle=0;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="450" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxahQNM6jeI8Uw0J8JKW-16" value="access fields of union is unsafe" style="whiteSpace=wrap;html=1;fontStyle=0;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="621" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
