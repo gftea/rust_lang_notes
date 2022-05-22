@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T11:06:39.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="AuM6wxg5IkgHu46HaYr8" version="18.1.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-22T11:11:06.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="4jBS0_4NGHIadwV4TWcD" version="18.1.1" type="github" pages="5">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
     <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -327,6 +327,36 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HuJZIQ_VvXpJ57PDRG7s-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HuJZIQ_VvXpJ57PDRG7s-1" target="HuJZIQ_VvXpJ57PDRG7s-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuJZIQ_VvXpJ57PDRG7s-1" value="Declarative" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="208" y="284" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuJZIQ_VvXpJ57PDRG7s-2" value="macro_rules!" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="408" y="284" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuJZIQ_VvXpJ57PDRG7s-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HuJZIQ_VvXpJ57PDRG7s-4" target="HuJZIQ_VvXpJ57PDRG7s-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuJZIQ_VvXpJ57PDRG7s-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HuJZIQ_VvXpJ57PDRG7s-4" target="HuJZIQ_VvXpJ57PDRG7s-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuJZIQ_VvXpJ57PDRG7s-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="HuJZIQ_VvXpJ57PDRG7s-4" target="HuJZIQ_VvXpJ57PDRG7s-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuJZIQ_VvXpJ57PDRG7s-4" value="Procedural" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="208" y="374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuJZIQ_VvXpJ57PDRG7s-5" value="Custom #[derive]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="408" y="374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuJZIQ_VvXpJ57PDRG7s-9" value="Attribute-like" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="408" y="455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuJZIQ_VvXpJ57PDRG7s-10" value="Function-like" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="408" y="531" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
