@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T11:18:44.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="zivBe7swvaYxe8NoS669" version="18.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-25T11:19:56.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="4VF2kkjIYJdHV-Y327Vb" version="18.1.1" type="github" pages="6">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
     <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -497,7 +497,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1LQevEiRHb-5WfQQnbg5" name="Threads">
-    <mxGraphModel dx="2254" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -510,26 +510,26 @@
         <mxCell id="N6s0OrQR4gP5StKYxJr6-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-1" target="N6s0OrQR4gP5StKYxJr6-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-1" value="Concurrency&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-1" value="Concurrency&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="332" y="358" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-2" target="N6s0OrQR4gP5StKYxJr6-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-2" value="Send trait" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="290" width="120" height="60" as="geometry" />
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-2" value="Send trait" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="192" y="448" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-4" target="N6s0OrQR4gP5StKYxJr6-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-4" value="Sync Trait" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="290" width="120" height="60" as="geometry" />
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-4" value="Sync Trait" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="482" y="448" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-6" value="Arc&amp;lt;T&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="430" width="120" height="60" as="geometry" />
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-6" value="Arc&amp;lt;T&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="192" y="588" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-8" value="Mutex&amp;lt;T&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="430" width="120" height="60" as="geometry" />
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-8" value="Mutex&amp;lt;T&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="482" y="588" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-10" target="N6s0OrQR4gP5StKYxJr6-6">
           <mxGeometry relative="1" as="geometry" />
@@ -537,23 +537,23 @@
         <mxCell id="N6s0OrQR4gP5StKYxJr6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-10" target="N6s0OrQR4gP5StKYxJr6-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-10" value="Multiple onwership with multiple threads" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="560" width="120" height="60" as="geometry" />
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-10" value="Multiple onwership with multiple threads" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="332" y="718" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-13" target="N6s0OrQR4gP5StKYxJr6-15">
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-16" value="clone tx" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-13" target="N6s0OrQR4gP5StKYxJr6-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-13" target="N6s0OrQR4gP5StKYxJr6-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-13" value="mpsc channel" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="332" y="248" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-15" value="multiple tx channel&lt;br&gt;(by clone)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="-40" width="120" height="60" as="geometry" />
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-15" value="multiple tx channel" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262" y="118" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-17" value="single rx channel" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="-40" width="120" height="60" as="geometry" />
+          <mxGeometry x="422" y="118" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
