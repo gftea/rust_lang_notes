@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T12:21:53.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="9UjAVYtNrHnBMsqASR0b" version="18.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-25T12:22:42.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="avdV-bcBsi_81mcY6HFG" version="18.1.1" type="github" pages="6">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
     <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -338,13 +338,13 @@
         <mxCell id="BYFvf5F5LwUVw5y9C_06-4" value="solved by" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BYFvf5F5LwUVw5y9C_06-1" target="BYFvf5F5LwUVw5y9C_06-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BYFvf5F5LwUVw5y9C_06-1" value="&amp;lt;&amp;lt;Limitation&amp;gt;&amp;gt;&lt;br&gt;can only return a single concrete type" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="BYFvf5F5LwUVw5y9C_06-1" value="&amp;lt;&amp;lt;Limitation&amp;gt;&amp;gt;&lt;br&gt;can only return a single concrete type that implements the trait" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="714" y="703" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BYFvf5F5LwUVw5y9C_06-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BYFvf5F5LwUVw5y9C_06-3" target="FcdPOv8J-mLD5muQKBMs-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BYFvf5F5LwUVw5y9C_06-3" value="&amp;lt;&amp;lt;Trait Object&amp;gt;&amp;gt;&lt;br&gt;can return values of different types" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="BYFvf5F5LwUVw5y9C_06-3" value="&amp;lt;&amp;lt;Trait Object&amp;gt;&amp;gt;&lt;br&gt;can return different types that implements the trait" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="714" y="856" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
