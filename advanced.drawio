@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T11:20:17.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="cE_Xj50IuIxYSlSLUzy4" version="18.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-25T11:20:34.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="RehwhfRmOcXMzRFIIU68" version="18.1.1" type="github" pages="6">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
     <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -516,19 +516,19 @@
         <mxCell id="N6s0OrQR4gP5StKYxJr6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-2" target="N6s0OrQR4gP5StKYxJr6-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-2" value="Send trait" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-2" value="&lt;b&gt;Send &lt;/b&gt;trait" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="192" y="448" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-4" target="N6s0OrQR4gP5StKYxJr6-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-4" value="Sync Trait" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-4" value="&lt;b&gt;Sync &lt;/b&gt;Trait" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="482" y="448" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-6" value="Arc&amp;lt;T&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-6" value="&lt;b&gt;Arc&amp;lt;T&amp;gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="192" y="588" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-8" value="Mutex&amp;lt;T&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-8" value="&lt;b&gt;Mutex&amp;lt;T&amp;gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="482" y="588" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-10" target="N6s0OrQR4gP5StKYxJr6-6">
