@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T11:56:37.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" version="18.1.1" etag="vyq3qgF02TnvXdU0hh8D" type="github"><diagram id="PBkYrD5w5cS4U47afEp-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-26T12:01:28.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="F0rKbjNMVFR07wQqbCIG" version="18.1.1" type="github">
+  <diagram id="PBkYrD5w5cS4U47afEp-" name="Page-1">
+    <mxGraphModel dx="2254" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-1" target="ulpQKY1A7-1UQrpSVsIB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-1" value="&lt;a href=&quot;https://doc.rust-lang.org/book/&quot;&gt;Rust Book&lt;/a&gt;&amp;nbsp;excluding Appendix" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-2" target="ulpQKY1A7-1UQrpSVsIB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-2" target="ulpQKY1A7-1UQrpSVsIB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-2" value="&lt;a href=&quot;https://github.com/rust-lang/rustlings/&quot;&gt;rustlings&lt;/a&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-4" target="ulpQKY1A7-1UQrpSVsIB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-4" value="&lt;a href=&quot;https://doc.rust-lang.org/stable/rust-by-example/&quot;&gt;Rust By Examples&lt;/a&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-6" value="Rust Book Appendix" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-4" target="ulpQKY1A7-1UQrpSVsIB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-8" value="Open Source Project" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-10" value="My Project" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
