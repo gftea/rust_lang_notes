@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T19:38:28.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="t6guN28lsSIhpdiFG3sH" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T19:39:36.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="-qRTfl0ycy9_UBABTDHN" version="18.1.1" type="github">
   <diagram id="PBkYrD5w5cS4U47afEp-" name="Page-1">
     <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,40 +8,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-1" value="&lt;a href=&quot;https://doc.rust-lang.org/book/&quot;&gt;Rust Book&lt;/a&gt;&amp;nbsp;excluding Appendix" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="38" y="287" width="120" height="60" as="geometry" />
+          <mxGeometry x="54" y="84" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulpQKY1A7-1UQrpSVsIB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-2" target="ulpQKY1A7-1UQrpSVsIB-4">
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-6" target="ulpQKY1A7-1UQrpSVsIB-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-2" target="ulpQKY1A7-1UQrpSVsIB-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-2" value="&lt;a href=&quot;https://github.com/rust-lang/rustlings/&quot;&gt;rustlings&lt;/a&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="238" y="287" width="120" height="60" as="geometry" />
+          <mxGeometry x="54" y="198" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulpQKY1A7-1UQrpSVsIB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-4" target="ulpQKY1A7-1UQrpSVsIB-8">
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-13" target="ulpQKY1A7-1UQrpSVsIB-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-4" target="ulpQKY1A7-1UQrpSVsIB-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-4" value="&lt;a href=&quot;https://doc.rust-lang.org/stable/rust-by-example/&quot;&gt;Rust By Examples&lt;/a&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="438" y="287" width="120" height="60" as="geometry" />
+          <mxGeometry x="54" y="421" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-6" value="Rust Book Appendix" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="238" y="427" width="120" height="60" as="geometry" />
+          <mxGeometry x="54" y="308" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulpQKY1A7-1UQrpSVsIB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-4" target="ulpQKY1A7-1UQrpSVsIB-10">
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-13" target="ulpQKY1A7-1UQrpSVsIB-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-8" value="Open Source Project" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="638" y="287" width="120" height="60" as="geometry" />
+          <mxGeometry x="469" y="421" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-10" value="My Project" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="528" y="427" width="120" height="60" as="geometry" />
+          <mxGeometry x="278" y="239" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-13" value="Application Domain" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="438" y="147" width="120" height="60" as="geometry" />
+          <mxGeometry x="278" y="421" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
