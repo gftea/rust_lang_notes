@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T19:39:36.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="-qRTfl0ycy9_UBABTDHN" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-27T09:40:31.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="bIHaNGUxRzTtkKuI9iHZ" version="18.1.1" type="github">
   <diagram id="PBkYrD5w5cS4U47afEp-" name="Page-1">
-    <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,6 +25,9 @@
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-4" target="ulpQKY1A7-1UQrpSVsIB-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-4" target="ulpQKY1A7-1UQrpSVsIB-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-4" value="&lt;a href=&quot;https://doc.rust-lang.org/stable/rust-by-example/&quot;&gt;Rust By Examples&lt;/a&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="54" y="421" width="120" height="60" as="geometry" />
         </mxCell>
@@ -38,10 +41,25 @@
           <mxGeometry x="469" y="421" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-10" value="My Project" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="278" y="239" width="120" height="60" as="geometry" />
+          <mxGeometry x="278" y="281" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-13" value="Application Domain" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="278" y="421" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-21" value="writing unsafe codes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-4" target="ulpQKY1A7-1UQrpSVsIB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-18" value="&lt;a href=&quot;https://www.rust-lang.org/community&quot;&gt;Join community&lt;/a&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="54" y="544" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-20" value="&lt;a href=&quot;https://doc.rust-lang.org/nomicon/&quot;&gt;Rustonomicon&lt;/a&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="544" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-22" target="ulpQKY1A7-1UQrpSVsIB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-22" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="92" y="17" width="44" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
