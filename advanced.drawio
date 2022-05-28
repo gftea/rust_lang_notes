@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-28T17:57:55.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="3sLlwTymLUfh3OMlLBHP" version="18.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-28T18:22:14.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="EULwwmNu6gBe4c8pgIui" version="18.1.1" type="github" pages="6">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
     <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -523,11 +523,15 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-1" target="N6s0OrQR4gP5StKYxJr6-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-3" value="allow ownership transfer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-1" target="N6s0OrQR4gP5StKYxJr6-2">
+          <mxGeometry x="0.5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-1" target="N6s0OrQR4gP5StKYxJr6-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-5" value="allow access from multiple thread" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-1" target="N6s0OrQR4gP5StKYxJr6-4">
+          <mxGeometry x="0.52" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-1" target="N6s0OrQR4gP5StKYxJr6-13">
           <mxGeometry relative="1" as="geometry" />
@@ -539,13 +543,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-2" value="&lt;b&gt;Send &lt;/b&gt;trait" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="192" y="448" width="120" height="60" as="geometry" />
+          <mxGeometry x="178" y="422" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-4" target="N6s0OrQR4gP5StKYxJr6-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-4" value="&lt;b&gt;Sync &lt;/b&gt;Trait" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="482" y="448" width="120" height="60" as="geometry" />
+          <mxGeometry x="495" y="422" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-zhRS6xEri1bZcyGr9k-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-6" target="N6s0OrQR4gP5StKYxJr6-10">
           <mxGeometry relative="1" as="geometry">
@@ -553,21 +557,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-6" value="&lt;b&gt;Arc&amp;lt;T&amp;gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="192" y="588" width="120" height="60" as="geometry" />
+          <mxGeometry x="178" y="542" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-zhRS6xEri1bZcyGr9k-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-8" target="N6s0OrQR4gP5StKYxJr6-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-8" value="&lt;b&gt;Mutex&amp;lt;T&amp;gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="482" y="588" width="120" height="60" as="geometry" />
+          <mxGeometry x="495" y="542" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-zhRS6xEri1bZcyGr9k-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-10" target="e-zhRS6xEri1bZcyGr9k-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-10" value="Multiple onwership with multiple threads" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="332" y="718" width="120" height="60" as="geometry" />
+          <mxGeometry x="332" y="624" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N6s0OrQR4gP5StKYxJr6-16" value="&lt;b&gt;clone tx&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-13" target="N6s0OrQR4gP5StKYxJr6-15">
+        <mxCell id="N6s0OrQR4gP5StKYxJr6-16" value="&lt;font color=&quot;#007fff&quot;&gt;clone tx channel&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-13" target="N6s0OrQR4gP5StKYxJr6-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-13" target="N6s0OrQR4gP5StKYxJr6-17">
@@ -577,13 +581,22 @@
           <mxGeometry x="332" y="248" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-15" value="multiple tx channel" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="262" y="118" width="120" height="60" as="geometry" />
+          <mxGeometry x="178" y="168" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3RXER6mOm06iCEn1BaUM-4" value="by Arc&amp;lt;Mutex&amp;lt;rx&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#007FFF;" edge="1" parent="1" source="N6s0OrQR4gP5StKYxJr6-17" target="3RXER6mOm06iCEn1BaUM-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N6s0OrQR4gP5StKYxJr6-17" value="single rx channel" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="422" y="118" width="120" height="60" as="geometry" />
+          <mxGeometry x="482" y="168" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-zhRS6xEri1bZcyGr9k-1" value="&lt;b&gt;Arc&amp;lt;Mutex&amp;lt;T&amp;gt;&amp;gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="332" y="818" width="120" height="60" as="geometry" />
+          <mxGeometry x="332" y="719" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3RXER6mOm06iCEn1BaUM-1" value="&lt;h1&gt;Rules&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;types composed entirely of types that are&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;color: var(--inline-code-color); font-size: 0.875em; display: inline; overflow-x: initial; background: rgb(246, 247, 246); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;Send&lt;/code&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;&amp;nbsp;are also&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;color: var(--inline-code-color); font-size: 0.875em; display: inline; overflow-x: initial; background: rgb(246, 247, 246); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;Send&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;types composed entirely of types that are&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;color: var(--inline-code-color); font-size: 0.875em; display: inline; overflow-x: initial; background: rgb(246, 247, 246); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;Sync&lt;/code&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;are also&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;color: var(--inline-code-color); font-size: 0.875em; display: inline; overflow-x: initial; background: rgb(246, 247, 246); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;Sync&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;Any type&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;color: var(--inline-code-color); font-size: 0.875em; display: inline; overflow-x: initial; background: rgb(246, 247, 246); padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;T&lt;/code&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;is&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;color: var(--inline-code-color); font-size: 0.875em; display: inline; overflow-x: initial; background: rgb(246, 247, 246); padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;Sync&lt;/code&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;color: var(--inline-code-color); font-size: 0.875em; display: inline; overflow-x: initial; background: rgb(246, 247, 246); padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;&amp;amp;T&lt;/code&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;(an immutable reference to&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;color: var(--inline-code-color); font-size: 0.875em; display: inline; overflow-x: initial; background: rgb(246, 247, 246); padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;T&lt;/code&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;) is&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;color: var(--inline-code-color); font-size: 0.875em; display: inline; overflow-x: initial; background: rgb(246, 247, 246); padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;Send&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;All types that are made up of&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;background: initial; color: var(--inline-code-color); font-size: 0.875em; display: inline; overflow-x: initial; padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;Send&lt;/code&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;and&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;background: initial; color: var(--inline-code-color); font-size: 0.875em; display: inline; overflow-x: initial; padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;Sync&lt;/code&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;traits are automatically also&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;background: initial; color: var(--inline-code-color); font-size: 0.875em; display: inline; overflow-x: initial; padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;Send&lt;/code&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;and&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;background: initial; color: var(--inline-code-color); font-size: 0.875em; display: inline; overflow-x: initial; padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;Sync&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;p&gt;&lt;/p&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="658" y="274" width="483" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="3RXER6mOm06iCEn1BaUM-3" value="shared by multiple threads" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="482" y="28" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
