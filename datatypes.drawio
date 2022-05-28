@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-28T12:27:26.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="B6DfWySEQCW3-MJRCHkk" version="18.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-28T12:28:24.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="kdaL8fTQyWkzQ_Y3jyQe" version="18.1.1" type="github" pages="8">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Data Types">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#182E3E" math="0" shadow="0">
       <root>
@@ -613,7 +613,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9eStY9992ubaFixJwn-C" name="module system">
-    <mxGraphModel dx="1038" dy="1748" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -658,9 +658,6 @@
         </mxCell>
         <mxCell id="ydkMT9-pHzCrUQRlratW-16" value="my_path" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="270" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ydkMT9-pHzCrUQRlratW-19" value="&lt;h1&gt;Internal vs External Library&lt;/h1&gt;&lt;p&gt;Compile binary which use library crate within same &lt;b&gt;cargo&lt;/b&gt;&amp;nbsp;workspace/project&amp;nbsp;&lt;/p&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;mylib1&lt;/span&gt; = {&lt;span style=&quot;color: #9cdcfe;&quot;&gt;path&lt;/span&gt; = &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;../mylib1&quot;&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;Compile binary which use external library crate (.rlib) from crates.io&lt;/p&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;rand&lt;/span&gt; = &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;0.8.3&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="446" y="-52" width="420" height="189" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
