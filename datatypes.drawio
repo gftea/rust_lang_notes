@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-29T08:46:57.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="My1ZWpjPFC4wsEMQ3mXP" version="18.1.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-05-29T08:49:33.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="UBH701KYBZ-RJgibNi-A" version="18.1.1" type="github" pages="9">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Data Types">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#182E3E" math="0" shadow="0">
       <root>
@@ -669,7 +669,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ijoEO4TPfmsuIkl_sHAA" name="generics">
-    <mxGraphModel dx="1038" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -700,6 +700,9 @@
         <mxCell id="vzEnhKZmtNA3PBk_yVMC-3" value="Lifetime" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="286" y="191" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vzEnhKZmtNA3PBk_yVMC-13" value="indirection trait bound" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="vzEnhKZmtNA3PBk_yVMC-6" target="vzEnhKZmtNA3PBk_yVMC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vzEnhKZmtNA3PBk_yVMC-6" value="Trait Bound" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="93" y="329" width="120" height="60" as="geometry" />
         </mxCell>
@@ -711,6 +714,15 @@
         </mxCell>
         <mxCell id="vzEnhKZmtNA3PBk_yVMC-10" value="&lt;div&gt;struct PhantomStruct&amp;lt;A, B&amp;gt; { first: A, phantom: PhantomData&amp;lt;B&amp;gt; }&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="450.5" y="443" width="167" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vzEnhKZmtNA3PBk_yVMC-15" value="example" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="vzEnhKZmtNA3PBk_yVMC-12" target="vzEnhKZmtNA3PBk_yVMC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vzEnhKZmtNA3PBk_yVMC-12" value="where Clause" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="93" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vzEnhKZmtNA3PBk_yVMC-14" value="&lt;div&gt;// Because we would otherwise have to express this as `T: Debug` or&amp;nbsp;&lt;/div&gt;&lt;div&gt;// use another method of indirect approach, this requires a `where` clause:&lt;/div&gt;&lt;div&gt;impl&amp;lt;T&amp;gt; PrintInOption for T where&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Option&amp;lt;T&amp;gt;: Debug {&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // We want `Option&amp;lt;T&amp;gt;: Debug` as our bound because that is what&#39;s&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // being printed. Doing otherwise would be using the wrong bound.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fn print_in_option(self) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; println!(&quot;{:?}&quot;, Some(self));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-53.50001220703126" y="568" width="413" height="154" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
