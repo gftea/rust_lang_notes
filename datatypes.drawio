@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-29T17:49:14.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="BRsUpP1rStdgTUyC1aNo" version="18.1.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-05-29T17:50:06.506Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="rHTMjaTFj11YyOd39lXj" version="18.1.1" type="github" pages="9">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Data Types">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#182E3E" math="0" shadow="0">
       <root>
@@ -758,7 +758,7 @@
         <mxCell id="vzEnhKZmtNA3PBk_yVMC-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="vzEnhKZmtNA3PBk_yVMC-30" target="vzEnhKZmtNA3PBk_yVMC-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vzEnhKZmtNA3PBk_yVMC-33" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;A longer lifetime can be coerced into a shorter one&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF0000;" vertex="1" connectable="0" parent="vzEnhKZmtNA3PBk_yVMC-31">
+        <mxCell id="vzEnhKZmtNA3PBk_yVMC-33" value="&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font color=&quot;#007fff&quot; style=&quot;font-size: 12px;&quot;&gt;A longer lifetime can be coerced into a shorter one&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF0000;" vertex="1" connectable="0" parent="vzEnhKZmtNA3PBk_yVMC-31">
           <mxGeometry x="-0.0936" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -766,7 +766,7 @@
         <mxCell id="vzEnhKZmtNA3PBk_yVMC-30" value="Coercion" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="252" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vzEnhKZmtNA3PBk_yVMC-38" value="as trait bound" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="vzEnhKZmtNA3PBk_yVMC-36" target="vzEnhKZmtNA3PBk_yVMC-28">
+        <mxCell id="vzEnhKZmtNA3PBk_yVMC-38" value="&lt;font color=&quot;#007fff&quot;&gt;as trait bound&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="vzEnhKZmtNA3PBk_yVMC-36" target="vzEnhKZmtNA3PBk_yVMC-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vzEnhKZmtNA3PBk_yVMC-36" value="&#39;static" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
