@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-29T08:45:03.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="q4hXIt7K8ykzMizXqZS6" version="18.1.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-05-29T08:46:57.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="My1ZWpjPFC4wsEMQ3mXP" version="18.1.1" type="github" pages="9">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Data Types">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#182E3E" math="0" shadow="0">
       <root>
@@ -703,8 +703,14 @@
         <mxCell id="vzEnhKZmtNA3PBk_yVMC-6" value="Trait Bound" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="93" y="329" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vzEnhKZmtNA3PBk_yVMC-11" value="generic over A, but not generic over B" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="vzEnhKZmtNA3PBk_yVMC-8" target="vzEnhKZmtNA3PBk_yVMC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vzEnhKZmtNA3PBk_yVMC-8" value="&lt;div&gt;use std::marker::PhantomData;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="450.5" y="303" width="167" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vzEnhKZmtNA3PBk_yVMC-10" value="&lt;div&gt;struct PhantomStruct&amp;lt;A, B&amp;gt; { first: A, phantom: PhantomData&amp;lt;B&amp;gt; }&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="450.5" y="443" width="167" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
