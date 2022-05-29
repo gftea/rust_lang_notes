@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-28T12:38:54.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="i4lop6YNgN-krK4dNqTn" version="18.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-29T08:36:18.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="FtaqZrr4xjCzjyLYFubI" version="18.1.1" type="github" pages="8">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Data Types">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#182E3E" math="0" shadow="0">
       <root>
@@ -341,7 +341,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lmW3rqXMdo3645RID3-0-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="xHI1mnqHl9X7gp_ayroV-3" target="lmW3rqXMdo3645RID3-0-1" edge="1">
+        <mxCell id="rljgcYoVyZ_pPWLeNYOJ-7" value="&lt;font color=&quot;#000000&quot;&gt;New type Idiom&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#FF0000;" edge="1" parent="1" source="xHI1mnqHl9X7gp_ayroV-1" target="rljgcYoVyZ_pPWLeNYOJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rljgcYoVyZ_pPWLeNYOJ-9" value="define binding behaviors" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#000000;" edge="1" parent="1" source="xHI1mnqHl9X7gp_ayroV-1" target="rljgcYoVyZ_pPWLeNYOJ-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xHI1mnqHl9X7gp_ayroV-1" value="Struct " style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
@@ -356,8 +359,11 @@
         <mxCell id="xHI1mnqHl9X7gp_ayroV-4" value="Unit-Like Struct without fields" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="xHI1mnqHl9X7gp_ayroV-1" vertex="1">
           <mxGeometry y="90" width="226" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lmW3rqXMdo3645RID3-0-1" value="Box&amp;lt;T&amp;gt;" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=30;" parent="1" vertex="1">
-          <mxGeometry x="140" y="444" width="120" height="60" as="geometry" />
+        <mxCell id="rljgcYoVyZ_pPWLeNYOJ-6" value="struct NewType(ExistingType)" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="616" y="261" width="251" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rljgcYoVyZ_pPWLeNYOJ-8" value="impl MyStruct" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="295" y="434" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
