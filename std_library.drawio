@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T12:30:27.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="q-trdEFGlIEk-n6fSQKR" version="18.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-31T12:30:34.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="okUwPF9OG7t8x_A8_h6p" version="18.1.1" type="github" pages="2">
   <diagram id="wVFPlVG3b40hQODtw27G" name="Option&lt;T&gt; and Result&lt;T, E&gt;">
     <mxGraphModel dx="3081" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,7 +99,7 @@
         <mxCell id="fBPxxS6dOhS0FlbmGzNQ-7" value="map_err()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fBPxxS6dOhS0FlbmGzNQ-9" value="&lt;b&gt;From::from&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fBPxxS6dOhS0FlbmGzNQ-9" value="&lt;b&gt;From::from&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="450" y="30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
