@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T15:20:56.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="X888YWO1kmH4JgfLf2lP" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-01T15:28:42.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="bZRtpsVQ_-v9ojkl-QCH" version="18.1.1" type="github">
   <diagram id="PBkYrD5w5cS4U47afEp-" name="roadmap">
     <mxGraphModel dx="1038" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,8 +31,9 @@
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-4" target="ulpQKY1A7-1UQrpSVsIB-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulpQKY1A7-1UQrpSVsIB-62" value="&lt;font color=&quot;#000000&quot;&gt;best coding practice&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-4" target="ulpQKY1A7-1UQrpSVsIB-61">
-          <mxGeometry x="0.3535" relative="1" as="geometry">
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-62" value="&lt;font color=&quot;#000000&quot;&gt;best coding practice&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-13" target="ulpQKY1A7-1UQrpSVsIB-64">
+          <mxGeometry x="0.7358" y="-2" relative="1" as="geometry">
+            <mxPoint x="515" y="544" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -59,6 +60,11 @@
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-10" value="My Project" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="455" y="309" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-66" value="reference" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-13" target="ulpQKY1A7-1UQrpSVsIB-65">
+          <mxGeometry x="0.863" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-13" value="&lt;font color=&quot;#ff0000&quot;&gt;Application Domain?&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="455" y="428" width="120" height="60" as="geometry" />
@@ -102,8 +108,11 @@
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-59" value="&lt;a href=&quot;https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials&quot;&gt;Embedded OS in Rust&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="627" y="309" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulpQKY1A7-1UQrpSVsIB-61" value="&lt;font color=&quot;#000000&quot;&gt;&lt;a href=&quot;https://rust-lang-nursery.github.io/rust-cookbook/intro.html&quot;&gt;Rust Codebook&lt;/a&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="455" y="518" width="120" height="60" as="geometry" />
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-64" value="&lt;a href=&quot;https://rust-lang-nursery.github.io/rust-cookbook/&quot;&gt;Rust Codebook&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-65" value="&lt;a href=&quot;https://doc.rust-lang.org/stable/reference/&quot;&gt;Rust Language Reference&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="524" y="545" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
