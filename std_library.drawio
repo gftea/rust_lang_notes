@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T12:24:02.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="E1-RDydjWf94o4R5g1Of" version="18.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-01T12:28:34.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="Ee6U0GzTns38IaOtbiuZ" version="18.1.1" type="github" pages="2">
   <diagram id="wVFPlVG3b40hQODtw27G" name="Option&lt;T&gt; and Result&lt;T, E&gt;">
     <mxGraphModel dx="3479" dy="2189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -236,8 +236,8 @@
         <mxCell id="PKvaohb6Cc-7Cv7HakOT-43" value="to_string()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="800" y="520" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PKvaohb6Cc-7Cv7HakOT-45" value="Traits" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="380" y="375" width="120" height="30" as="geometry" />
+        <mxCell id="PKvaohb6Cc-7Cv7HakOT-45" value="by implementing Traits" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="370" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PKvaohb6Cc-7Cv7HakOT-51" value="implements" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=1;" edge="1" parent="1" source="PKvaohb6Cc-7Cv7HakOT-47" target="PKvaohb6Cc-7Cv7HakOT-49">
           <mxGeometry relative="1" as="geometry" />
