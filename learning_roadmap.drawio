@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T15:38:34.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="dtYheu53dW810AXhYUXA" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-02T13:33:17.915Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="oo4iAeps4F1axv-z__Dw" version="18.1.1" type="github">
   <diagram id="PBkYrD5w5cS4U47afEp-" name="roadmap">
-    <mxGraphModel dx="1038" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-1" target="ulpQKY1A7-1UQrpSVsIB-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulpQKY1A7-1UQrpSVsIB-1" value="&lt;a href=&quot;https://doc.rust-lang.org/book/&quot;&gt;Rust Book&lt;/a&gt;&amp;nbsp;excluding Appendix" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-1" value="&lt;a href=&quot;https://doc.rust-lang.org/book/&quot;&gt;Rust Book&lt;/a&gt;&amp;nbsp;excluding Appendix" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="257" y="91" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-6" target="ulpQKY1A7-1UQrpSVsIB-4">
@@ -16,7 +16,7 @@
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-2" target="ulpQKY1A7-1UQrpSVsIB-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulpQKY1A7-1UQrpSVsIB-2" value="&lt;a href=&quot;https://github.com/rust-lang/rustlings/&quot;&gt;rustlings&lt;/a&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-2" value="&lt;a href=&quot;https://github.com/rust-lang/rustlings/&quot;&gt;rustlings&lt;/a&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="257" y="205" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-13" target="ulpQKY1A7-1UQrpSVsIB-8">
@@ -31,8 +31,9 @@
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-4" target="ulpQKY1A7-1UQrpSVsIB-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulpQKY1A7-1UQrpSVsIB-62" value="&lt;font color=&quot;#000000&quot;&gt;best coding practice&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-72" target="ulpQKY1A7-1UQrpSVsIB-64">
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-62" value="&lt;font color=&quot;#000000&quot;&gt;best coding practice&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;exitX=0.544;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-73" target="ulpQKY1A7-1UQrpSVsIB-64">
           <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint x="627" y="84" as="sourcePoint" />
             <mxPoint x="530" y="67" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -40,7 +41,7 @@
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-4" value="&lt;a href=&quot;https://doc.rust-lang.org/stable/rust-by-example/&quot;&gt;Rust By Examples&lt;/a&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="257" y="428" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulpQKY1A7-1UQrpSVsIB-6" value="Rust Book Appendix" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-6" value="Rust Book Appendix" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="257" y="315" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-13" target="ulpQKY1A7-1UQrpSVsIB-10">
@@ -71,8 +72,9 @@
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-10" value="My Project" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="639" y="522" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulpQKY1A7-1UQrpSVsIB-66" value="reference" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-72" target="ulpQKY1A7-1UQrpSVsIB-65">
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-66" value="reference" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulpQKY1A7-1UQrpSVsIB-73" target="ulpQKY1A7-1UQrpSVsIB-65">
           <mxGeometry x="0.6923" relative="1" as="geometry">
+            <mxPoint x="627" y="84" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -126,8 +128,8 @@
         <mxCell id="ulpQKY1A7-1UQrpSVsIB-65" value="&lt;a href=&quot;https://doc.rust-lang.org/stable/reference/&quot;&gt;Rust Language Reference&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="477" y="164" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulpQKY1A7-1UQrpSVsIB-72" value="Reference" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="567" y="24" width="120" height="60" as="geometry" />
+        <mxCell id="ulpQKY1A7-1UQrpSVsIB-73" value="Reference" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="587" y="12" width="68" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
