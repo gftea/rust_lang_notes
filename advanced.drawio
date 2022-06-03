@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-28T18:22:14.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="EULwwmNu6gBe4c8pgIui" version="18.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-03T13:59:51.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="Lp9nPyVpHHzJ79LB7aQj" version="18.1.1" type="github" pages="6">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
     <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
         <mxCell id="dlkJCHKCAtGTFh4wOfaU-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dlkJCHKCAtGTFh4wOfaU-13" target="dlkJCHKCAtGTFh4wOfaU-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dlkJCHKCAtGTFh4wOfaU-13" value="only one implementation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="dlkJCHKCAtGTFh4wOfaU-13" value="only one implementation. e.g. generic behavior over inner type" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="103" y="182" width="208" height="38" as="geometry" />
         </mxCell>
         <mxCell id="dlkJCHKCAtGTFh4wOfaU-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dlkJCHKCAtGTFh4wOfaU-17" target="dlkJCHKCAtGTFh4wOfaU-19" edge="1">
@@ -172,7 +172,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WH3xx7vK8a0jW0mmQXdI" name="Advanced types">
-    <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -519,7 +519,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1LQevEiRHb-5WfQQnbg5" name="Threads">
-    <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
