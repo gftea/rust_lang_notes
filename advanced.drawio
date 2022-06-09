@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T18:08:04.723Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="zf2cGvkVKEbIRYF0EjSh" version="19.0.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-06-09T18:09:35.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="2SXK3UFVaVA5ajIVrmE5" version="19.0.0" type="github" pages="8">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
     <mxGraphModel dx="1038" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -686,7 +686,7 @@
         <mxCell id="KnwNV736d4wCFp9leuSG-25" value="Future" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KnwNV736d4wCFp9leuSG-29" value="poll" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KnwNV736d4wCFp9leuSG-38" target="KnwNV736d4wCFp9leuSG-5">
+        <mxCell id="KnwNV736d4wCFp9leuSG-29" value="has" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KnwNV736d4wCFp9leuSG-38" target="KnwNV736d4wCFp9leuSG-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1430" y="300" as="sourcePoint" />
           </mxGeometry>
@@ -725,9 +725,6 @@
           <mxGeometry x="530" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KnwNV736d4wCFp9leuSG-52" value="Waker::wake()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KnwNV736d4wCFp9leuSG-46" target="KnwNV736d4wCFp9leuSG-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KnwNV736d4wCFp9leuSG-53" value="polll" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KnwNV736d4wCFp9leuSG-46" target="KnwNV736d4wCFp9leuSG-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KnwNV736d4wCFp9leuSG-46" value="Executor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
