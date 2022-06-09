@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T18:13:38.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="m6uu-6KyMRdcXxnz2spp" version="19.0.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-06-09T18:13:58.058Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="i5f7abhQTI9Rf5P3Mlub" version="19.0.0" type="github" pages="8">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
     <mxGraphModel dx="1038" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -665,9 +665,10 @@
         </mxCell>
         <mxCell id="KnwNV736d4wCFp9leuSG-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KnwNV736d4wCFp9leuSG-19" target="KnwNV736d4wCFp9leuSG-10">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="460" as="targetPoint" />
             <Array as="points">
               <mxPoint x="250" y="370" />
-              <mxPoint x="250" y="440" />
+              <mxPoint x="250" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
