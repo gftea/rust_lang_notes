@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T15:07:23.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="pLNjH-zW8EyJLZBaYBz0" version="19.0.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-06-10T15:07:35.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="gmTky3udD4i0AhBU-cD_" version="19.0.0" type="github" pages="8">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
     <mxGraphModel dx="1038" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -731,8 +731,11 @@
         <mxCell id="KnwNV736d4wCFp9leuSG-48" value="register to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="keE3FpsD0npuMp2dqfYH-3" source="KnwNV736d4wCFp9leuSG-36" target="KnwNV736d4wCFp9leuSG-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5B7jKPakzpNAk1Yv6fes-21" value="has" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="keE3FpsD0npuMp2dqfYH-3" source="5B7jKPakzpNAk1Yv6fes-20" target="KnwNV736d4wCFp9leuSG-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5B7jKPakzpNAk1Yv6fes-20" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Reactor (I/O, IPC, Timer)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="keE3FpsD0npuMp2dqfYH-3">
-          <mxGeometry x="394" y="10" width="91" height="40" as="geometry" />
+          <mxGeometry x="411" y="5" width="91" height="40" as="geometry" />
         </mxCell>
         <mxCell id="keE3FpsD0npuMp2dqfYH-4" value="Async Runtime" style="swimlane;fontSize=16;" vertex="1" parent="keE3FpsD0npuMp2dqfYH-5">
           <mxGeometry x="10" width="840" height="320" as="geometry" />
