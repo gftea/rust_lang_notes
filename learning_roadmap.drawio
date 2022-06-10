@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T14:07:13.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="742DtEDq4ut15oFVSMwu" version="19.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-10T14:07:30.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="HJq4b7Rf6ArQaXPG6TaO" version="19.0.0" type="github" pages="2">
   <diagram id="PBkYrD5w5cS4U47afEp-" name="roadmap">
     <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -145,17 +145,17 @@
         </mxCell>
         <UserObject label="https://rust-lang.zulipchat.com/#" link="https://rust-lang.zulipchat.com/#" id="i2lRK1VTi4aubwp1Akog-6">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="51.000024414062494" y="481.99998779296874" width="189" height="28" as="geometry" />
+            <mxGeometry x="62" y="482" width="178" height="28" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="https://internals.rust-lang.org/" link="https://www.rust-lang.org/community" id="i2lRK1VTi4aubwp1Akog-7">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="27.0000244140625" y="383.49998779296874" width="213" height="28" as="geometry" />
+            <mxGeometry x="75" y="383.5" width="165" height="28" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="https://discord.com/invite/rust-lang" link="https://discord.com/invite/rust-lang" id="i2lRK1VTi4aubwp1Akog-8">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="38" y="431" width="202" height="29" as="geometry" />
+            <mxGeometry x="50" y="431" width="190" height="29" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
