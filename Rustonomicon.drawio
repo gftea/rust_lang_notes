@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T16:17:34.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ObX1X_grKN1WfgCOmzmR" version="20.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-28T18:42:46.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="tPa-LUJ2FcRsoc_d74qY" version="20.0.3" type="github" pages="2">
   <diagram id="R3eRClDqZ2LJtudLOTUs" name="General">
     <mxGraphModel dx="1596" dy="809" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,13 +159,13 @@
         <mxCell id="cU7xQ6wBw7CsditcWqYj-18" value="T can&amp;nbsp;&lt;b&gt;NOT&amp;nbsp;&lt;/b&gt;be transferred between threads, but &amp;amp;T can.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="711.5" y="220" width="141" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="cU7xQ6wBw7CsditcWqYj-20" value="T has shared data and has public methods can mutate the shared data via &lt;i&gt;self&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cU7xQ6wBw7CsditcWqYj-20" value="T has shared data and has public methods can mutate the shared data via &lt;i&gt;self&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="703" y="306" width="157" height="61" as="geometry" />
         </mxCell>
         <mxCell id="cU7xQ6wBw7CsditcWqYj-27" value="use cases" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="cU7xQ6wBw7CsditcWqYj-24" target="cU7xQ6wBw7CsditcWqYj-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cU7xQ6wBw7CsditcWqYj-24" value="But T has no public methods that can mutate the shared data via &lt;i&gt;&amp;amp;self&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cU7xQ6wBw7CsditcWqYj-24" value="But T has no public methods that can mutate the shared data via &lt;i&gt;&amp;amp;self&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="711.5" y="397" width="141" height="61" as="geometry" />
         </mxCell>
         <mxCell id="cU7xQ6wBw7CsditcWqYj-29" value="examples" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="cU7xQ6wBw7CsditcWqYj-26" target="cU7xQ6wBw7CsditcWqYj-28">
