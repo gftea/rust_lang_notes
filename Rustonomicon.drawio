@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T15:55:43.688Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="gcJF9HXM4EQEFUvQV-9H" version="20.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-28T15:57:33.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="dsgJQOx4p1tMZjPKge8U" version="20.0.3" type="github" pages="2">
   <diagram id="R3eRClDqZ2LJtudLOTUs" name="General">
     <mxGraphModel dx="1596" dy="809" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,10 +138,10 @@
         <mxCell id="cU7xQ6wBw7CsditcWqYj-9" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Open Sans, sans-serif&quot;&gt;If &amp;amp;T is Send, that means there is no possibility of undefined behavior and data races when &amp;amp;T is used between threads.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="448" width="272" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="cU7xQ6wBw7CsditcWqYj-11" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, sans-serif;&quot;&gt;Type T has &lt;b&gt;NO&amp;nbsp;&lt;/b&gt;public methods that take &amp;amp;self and mutate the value&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="cU7xQ6wBw7CsditcWqYj-11" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, sans-serif;&quot;&gt;Type T has &lt;b&gt;NO&amp;nbsp;&lt;/b&gt;public methods that take &lt;i&gt;&amp;amp;self &lt;/i&gt;and mutate the value&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="318" y="549" width="212" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="cU7xQ6wBw7CsditcWqYj-13" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Open Sans, sans-serif&quot;&gt;Type T guarantee that only one thread can mutate the value at a time by locking&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="cU7xQ6wBw7CsditcWqYj-13" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Open Sans, sans-serif&quot;&gt;If type T has method that can mutate value via &lt;i&gt;&amp;amp;self, it must&lt;/i&gt; guarantee that only one thread can mutate the value at a time by locking&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="541" y="549" width="272" height="63" as="geometry" />
         </mxCell>
       </root>
