@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T18:32:48.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4HbQSrOmGee05Nh0tvnz" version="20.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-29T18:33:04.674Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kMf6EVrp8vS9szHilT3i" version="20.0.3" type="github" pages="2">
   <diagram id="R3eRClDqZ2LJtudLOTUs" name="General">
-    <mxGraphModel dx="1550" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1950" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MJgvrgMyZ8aBI9BDAx1X-4" value="Drop Checker" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="24" y="315" width="110" height="50" as="geometry" />
+          <mxGeometry x="-6" y="265" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MJgvrgMyZ8aBI9BDAx1X-5" value="Borrow Checker" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="24" y="395" width="110" height="50" as="geometry" />
+          <mxGeometry x="-6" y="369" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MJgvrgMyZ8aBI9BDAx1X-10" value="for" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MJgvrgMyZ8aBI9BDAx1X-6" target="MJgvrgMyZ8aBI9BDAx1X-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -98,7 +98,7 @@
           <mxGeometry x="638" y="831" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SZvfS6yfRg45t_dEEsNP-1" value="For a generic type to soundly implement drop, &lt;br&gt;its generics arguments must strictly outlive it." style="html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="195" y="311" width="270" height="58" as="geometry" />
+          <mxGeometry x="165" y="261" width="270" height="58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
