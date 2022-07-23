@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T12:26:08.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="R8ckZHi4S2qqtFjtih5P" version="20.1.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-23T12:27:50.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="meBwK1XMDL6pbBSi87Vv" version="20.1.4" type="github" pages="9">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
     <mxGraphModel dx="1196" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -857,7 +857,7 @@
         <mxCell id="I5I8ksYVAqxb71k1L1GE-15" value="sub Futures" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;whiteSpace=wrap;points=[];strokeColor=inherit;fillColor=inherit;shadow=1;" vertex="1" parent="I5I8ksYVAqxb71k1L1GE-13">
           <mxGeometry x="128" y="3" width="115.19999999999999" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="I5I8ksYVAqxb71k1L1GE-17" value="manage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I5I8ksYVAqxb71k1L1GE-22" target="I5I8ksYVAqxb71k1L1GE-13">
+        <mxCell id="I5I8ksYVAqxb71k1L1GE-17" value="manage&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I5I8ksYVAqxb71k1L1GE-22" target="I5I8ksYVAqxb71k1L1GE-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="519" y="273" as="sourcePoint" />
           </mxGeometry>
