@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T12:29:43.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="bmJZREUI4YTlX6XAu6vN" version="20.1.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-23T12:31:04.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="s1NPvH93YmHcHMbFQG-b" version="20.1.4" type="github" pages="9">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
     <mxGraphModel dx="1196" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -804,13 +804,13 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="I5I8ksYVAqxb71k1L1GE-1" value="Top Future" style="shape=umlState;rounded=1;verticalAlign=top;spacingTop=5;umlStateSymbol=collapseState;absoluteArcSize=1;arcSize=10;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="I5I8ksYVAqxb71k1L1GE-1" value="Top Level Future" style="shape=umlState;rounded=1;verticalAlign=top;spacingTop=5;umlStateSymbol=collapseState;absoluteArcSize=1;arcSize=10;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-78" y="74" width="441" height="435" as="geometry" />
         </mxCell>
         <mxCell id="I5I8ksYVAqxb71k1L1GE-2" value="s" style="shape=ellipse;html=1;fillColor=#000000;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="129" y="117" width="32" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I5I8ksYVAqxb71k1L1GE-3" value="await futures ready?" style="shape=rhombus;html=1;labelPosition=right;align=left;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="I5I8ksYVAqxb71k1L1GE-3" value="all sub futures ready?" style="shape=rhombus;html=1;labelPosition=right;align=left;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="141" y="230" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="I5I8ksYVAqxb71k1L1GE-4" value="&lt;font color=&quot;#0000cc&quot;&gt;poll&lt;/font&gt;" style="edgeStyle=elbowEdgeStyle;html=1;elbow=horizontal;align=right;verticalAlign=bottom;rounded=0;labelBackgroundColor=none;endArrow=open;endSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="I5I8ksYVAqxb71k1L1GE-2" target="I5I8ksYVAqxb71k1L1GE-3">
