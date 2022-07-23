@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T12:34:18.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="K-Z1D95rbflBflWXHI_t" version="20.1.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-07-23T12:35:20.549Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="je4LUDsJ9mEwz_18qFfA" version="20.1.4" type="github" pages="9">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
     <mxGraphModel dx="1196" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -804,7 +804,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CZ49b4xvELbTJnQQFE6m-1" value="state machine&amp;nbsp;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;elbow=vertical;" edge="1" parent="1" source="I5I8ksYVAqxb71k1L1GE-13" target="I5I8ksYVAqxb71k1L1GE-1">
+        <mxCell id="CZ49b4xvELbTJnQQFE6m-1" value="state machine&amp;nbsp;" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;elbow=vertical;shape=flexArrow;" edge="1" parent="1" source="I5I8ksYVAqxb71k1L1GE-13" target="I5I8ksYVAqxb71k1L1GE-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I5I8ksYVAqxb71k1L1GE-13" value="" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
