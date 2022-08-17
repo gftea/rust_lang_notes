@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T10:34:49.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2gQCJHghn2PlptilrY_9" version="20.2.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-08-17T16:23:28.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="twHYPmKfJhGhxdUtl6Gr" version="20.2.3" type="github" pages="9">
   <diagram id="eUUxpxt1XqWqc5IN01eM" name="Unsafe Rust">
-    <mxGraphModel dx="1196" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hPBTlBuKwRQLNFQ9qgm1" name="Advanced traits">
-    <mxGraphModel dx="2254" dy="1267" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="1235" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,7 +82,7 @@
         <mxCell id="dlkJCHKCAtGTFh4wOfaU-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dlkJCHKCAtGTFh4wOfaU-4" target="dlkJCHKCAtGTFh4wOfaU-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="StaJTFD1EavFBUZKHQdl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="dlkJCHKCAtGTFh4wOfaU-4" target="StaJTFD1EavFBUZKHQdl-1">
+        <mxCell id="StaJTFD1EavFBUZKHQdl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="dlkJCHKCAtGTFh4wOfaU-4" target="StaJTFD1EavFBUZKHQdl-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dlkJCHKCAtGTFh4wOfaU-4" value="Trait" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -171,26 +171,26 @@
         <mxCell id="iRy9whdvicV4pnnYXqyV-1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace;&quot; class=&quot;hljs-class&quot;&gt;&lt;span style=&quot;color: rgb(157, 0, 236);&quot; class=&quot;hljs-keyword&quot;&gt;trait&lt;/span&gt; &lt;span style=&quot;color: rgb(0, 48, 242);&quot; class=&quot;hljs-title&quot;&gt;Add&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace; background-color: rgb(246, 247, 246);&quot;&gt;&amp;lt;Rhs=&lt;/span&gt;&lt;span style=&quot;color: rgb(157, 0, 236); font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace;&quot; class=&quot;hljs-keyword&quot;&gt;Self&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace; background-color: rgb(246, 247, 246);&quot;&gt;&amp;gt; {&lt;br/&gt;    &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace;&quot; class=&quot;hljs-class&quot;&gt;&lt;span style=&quot;color: rgb(157, 0, 236);&quot; class=&quot;hljs-keyword&quot;&gt;type&lt;/span&gt; &lt;span style=&quot;color: rgb(0, 48, 242);&quot; class=&quot;hljs-title&quot;&gt;Output&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace; background-color: rgb(246, 247, 246);&quot;&gt;;&lt;br/&gt;&lt;br/&gt;    &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace;&quot; class=&quot;hljs-function&quot;&gt;&lt;span style=&quot;color: rgb(157, 0, 236);&quot; class=&quot;hljs-keyword&quot;&gt;fn&lt;/span&gt; &lt;span style=&quot;color: rgb(0, 48, 242);&quot; class=&quot;hljs-title&quot;&gt;add&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace; background-color: rgb(246, 247, 246);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(157, 0, 236); font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace;&quot; class=&quot;hljs-keyword&quot;&gt;self&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace; background-color: rgb(246, 247, 246);&quot;&gt;, rhs: Rhs) -&amp;gt; Self::Output;&lt;br/&gt;}&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="957" y="100" width="396.14" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="StaJTFD1EavFBUZKHQdl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="StaJTFD1EavFBUZKHQdl-1" target="StaJTFD1EavFBUZKHQdl-3">
+        <mxCell id="StaJTFD1EavFBUZKHQdl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="StaJTFD1EavFBUZKHQdl-1" target="StaJTFD1EavFBUZKHQdl-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="StaJTFD1EavFBUZKHQdl-1" value="&lt;a href=&quot;https://doc.rust-lang.org/nomicon/hrtb.html#higher-rank-trait-bounds-hrtbs&quot;&gt;HRTB (Higher-RankTrait Bound)&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="StaJTFD1EavFBUZKHQdl-1" value="&lt;a href=&quot;https://doc.rust-lang.org/nomicon/hrtb.html#higher-rank-trait-bounds-hrtbs&quot;&gt;HRTB (Higher-RankTrait Bound)&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="419" y="-58" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="StaJTFD1EavFBUZKHQdl-3" value="&lt;pre style=&quot;position: relative; color: rgb(0, 0, 0); font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: block; overflow-x: auto; background: rgb(246, 247, 246); color: rgb(0, 0, 0); padding: 0.5em;&quot; class=&quot;language-rust ignore hljs&quot;&gt;&lt;span style=&quot;color: rgb(157, 0, 236);&quot; class=&quot;hljs-keyword&quot;&gt;where&lt;/span&gt; &lt;span style=&quot;color: rgb(157, 0, 236);&quot; class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: rgb(0, 130, 0);&quot; class=&quot;hljs-symbol&quot;&gt;&#39;a&lt;/span&gt;&amp;gt; F: &lt;span style=&quot;color: rgb(178, 30, 0);&quot; class=&quot;hljs-built_in&quot;&gt;Fn&lt;/span&gt;(&amp;amp;&lt;span style=&quot;color: rgb(0, 130, 0);&quot; class=&quot;hljs-symbol&quot;&gt;&#39;a&lt;/span&gt; (&lt;span style=&quot;color: rgb(178, 30, 0);&quot; class=&quot;hljs-built_in&quot;&gt;u8&lt;/span&gt;, &lt;span style=&quot;color: rgb(178, 30, 0);&quot; class=&quot;hljs-built_in&quot;&gt;u16&lt;/span&gt;)) -&amp;gt; &amp;amp;&lt;span style=&quot;color: rgb(0, 130, 0);&quot; class=&quot;hljs-symbol&quot;&gt;&#39;a&lt;/span&gt; &lt;span style=&quot;color: rgb(178, 30, 0);&quot; class=&quot;hljs-built_in&quot;&gt;u8&lt;/span&gt;,&#xa;&lt;/code&gt;&lt;/pre&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="StaJTFD1EavFBUZKHQdl-3" value="&lt;pre style=&quot;position: relative; color: rgb(0, 0, 0); font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: block; overflow-x: auto; background: rgb(246, 247, 246); color: rgb(0, 0, 0); padding: 0.5em;&quot; class=&quot;language-rust ignore hljs&quot;&gt;&lt;span style=&quot;color: rgb(157, 0, 236);&quot; class=&quot;hljs-keyword&quot;&gt;where&lt;/span&gt; &lt;span style=&quot;color: rgb(157, 0, 236);&quot; class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: rgb(0, 130, 0);&quot; class=&quot;hljs-symbol&quot;&gt;&#39;a&lt;/span&gt;&amp;gt; F: &lt;span style=&quot;color: rgb(178, 30, 0);&quot; class=&quot;hljs-built_in&quot;&gt;Fn&lt;/span&gt;(&amp;amp;&lt;span style=&quot;color: rgb(0, 130, 0);&quot; class=&quot;hljs-symbol&quot;&gt;&#39;a&lt;/span&gt; (&lt;span style=&quot;color: rgb(178, 30, 0);&quot; class=&quot;hljs-built_in&quot;&gt;u8&lt;/span&gt;, &lt;span style=&quot;color: rgb(178, 30, 0);&quot; class=&quot;hljs-built_in&quot;&gt;u16&lt;/span&gt;)) -&amp;gt; &amp;amp;&lt;span style=&quot;color: rgb(0, 130, 0);&quot; class=&quot;hljs-symbol&quot;&gt;&#39;a&lt;/span&gt; &lt;span style=&quot;color: rgb(178, 30, 0);&quot; class=&quot;hljs-built_in&quot;&gt;u8&lt;/span&gt;,&#xa;&lt;/code&gt;&lt;/pre&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="608.969951171875" y="-72.0000244140625" width="380" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="StaJTFD1EavFBUZKHQdl-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="StaJTFD1EavFBUZKHQdl-5" target="StaJTFD1EavFBUZKHQdl-3">
+        <mxCell id="StaJTFD1EavFBUZKHQdl-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="StaJTFD1EavFBUZKHQdl-5" target="StaJTFD1EavFBUZKHQdl-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="StaJTFD1EavFBUZKHQdl-5" value="&lt;p style=&quot;line-height: 1.45em; color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: initial; background: rgb(246, 247, 246); color: var(--inline-code-color); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;for&amp;lt;&#39;a&amp;gt;&lt;/code&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;can be read as &quot;for all choices of&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: initial; background: rgb(246, 247, 246); color: var(--inline-code-color); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;&#39;a&lt;/code&gt;&quot;, and basically produces an&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;infinite list&lt;/em&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;of trait bounds that F must satisfy. Intense. There aren&#39;t many places outside of the&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: initial; background: rgb(246, 247, 246); color: var(--inline-code-color); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;Fn&lt;/code&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;traits where we encounter HRTBs, and even for those we have a nice magic sugar for the common cases.&lt;/p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="StaJTFD1EavFBUZKHQdl-5" value="&lt;p style=&quot;line-height: 1.45em; color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: initial; background: rgb(246, 247, 246); color: var(--inline-code-color); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;for&amp;lt;&#39;a&amp;gt;&lt;/code&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;can be read as &quot;for all choices of&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: initial; background: rgb(246, 247, 246); color: var(--inline-code-color); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;&#39;a&lt;/code&gt;&quot;, and basically produces an&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;em&gt;infinite list&lt;/em&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;of trait bounds that F must satisfy. Intense. There aren&#39;t many places outside of the&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: initial; background: rgb(246, 247, 246); color: var(--inline-code-color); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;Fn&lt;/code&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;traits where we encounter HRTBs, and even for those we have a nice magic sugar for the common cases.&lt;/p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="528.97" y="-243" width="540" height="124" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="WH3xx7vK8a0jW0mmQXdI" name="Advanced types">
-    <mxGraphModel dx="1038" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -240,7 +240,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lK7TMXjdbiNiZXR-lueG" name="Advanced functions and closures">
-    <mxGraphModel dx="2254" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -537,7 +537,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1LQevEiRHb-5WfQQnbg5" name="Threads">
-    <mxGraphModel dx="1196" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -620,7 +620,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-fetyg4f3MxaKGhGcXWK" name="Concurrency">
-    <mxGraphModel dx="1196" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -744,7 +744,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TeZTpgaGHiI7JEn9rkox" name="Future">
-    <mxGraphModel dx="1196" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -800,7 +800,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="viqv3PN2MwiKouPZGD-0" name="async">
-    <mxGraphModel dx="2023" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
