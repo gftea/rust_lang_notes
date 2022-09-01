@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T11:48:22.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="kFCC4YCjhcnHkaDERNhi" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-01T13:59:10.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="masd6KzIeNn9iS32wwqh" version="20.2.7" type="github" pages="2">
   <diagram id="7nlwO84KvkW0Aix58FH8" name="definition and usage">
     <mxGraphModel dx="3690" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,8 +165,8 @@
         <mxCell id="0OdqfQQxuGB3rMPhxfwQ-15" value="macro processing" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="20" y="320" width="550" height="163.99668701171873" as="geometry" />
         </mxCell>
-        <mxCell id="WOZmcXRCPDBAkM3bQ4wx-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(246, 247, 246); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;rustc +nightly -Zunpretty=expanded hello.rs&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0OdqfQQxuGB3rMPhxfwQ-15">
-          <mxGeometry x="111" y="124.99668701171873" width="359" height="39" as="geometry" />
+        <mxCell id="WOZmcXRCPDBAkM3bQ4wx-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;rustc +nightly -Zunpretty=expanded hello.rs&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0OdqfQQxuGB3rMPhxfwQ-15">
+          <mxGeometry x="145" y="129" width="292" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0OdqfQQxuGB3rMPhxfwQ-18" value="Semantic Analysis" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="235" y="620" width="120" height="60" as="geometry" />
@@ -176,6 +176,12 @@
         </mxCell>
         <mxCell id="0OdqfQQxuGB3rMPhxfwQ-20" value="" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="280" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iwUgALapXwS2oI7h55k6-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.51;entryY=-0.049;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="iwUgALapXwS2oI7h55k6-2" target="0OdqfQQxuGB3rMPhxfwQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iwUgALapXwS2oI7h55k6-2" value="&lt;span style=&quot;color: rgb(38, 38, 37); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;Hygiene&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(38, 38, 37); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;:&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;macro should work in its own syntax context, not affecting nor being affected by its surroundings&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="411" y="240" width="205" height="69" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
