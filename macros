@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-04T14:07:53.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="j3HmkD-T4eIQ4aVs3Z7H" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-04T14:08:18.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xdzOnONz8eSqTEmzXFWc" version="20.2.7" type="github" pages="2">
   <diagram id="7nlwO84KvkW0Aix58FH8" name="definition and usage">
     <mxGraphModel dx="4031" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
         <mxCell id="vIX71PoD4htdAhyJZuEg-22" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Courier New&quot;&gt;#[proc_macro_dervie(&lt;b&gt;IDENTIFIER&lt;/b&gt;)]&lt;br&gt;pub fn &lt;b&gt;any_valid_function_name&lt;/b&gt;&lt;span style=&quot;color: rgb(48, 25, 0); text-align: start; background-color: rgb(246, 247, 246);&quot;&gt;(TokenStream) -&amp;gt; TokenStream&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1800" y="510" width="430" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vIX71PoD4htdAhyJZuEg-24" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Courier New&quot;&gt;#[derive(&lt;b&gt;IDENTIFIER&lt;/b&gt;)]&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;for only Enum/Struct/Union&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="vIX71PoD4htdAhyJZuEg-24" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Courier New&quot;&gt;#[derive(&lt;b&gt;IDENTIFIER&lt;/b&gt;)]&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;for Enum/Struct/Union&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1270" y="510" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vIX71PoD4htdAhyJZuEg-30" value="invoked &lt;br&gt;without attributes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;" parent="1" source="vIX71PoD4htdAhyJZuEg-26" target="vIX71PoD4htdAhyJZuEg-29" edge="1">
