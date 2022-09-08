@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T14:24:55.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="wJqZVvbC3dBffZV4Av2t" version="20.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-08T14:25:52.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="lR9-1JZisO5-LpUVnUdf" version="20.3.0" type="github" pages="2">
   <diagram id="njIX0bUzD_2Iep3WYMKP" name="serialize">
     <mxGraphModel dx="1209" dy="585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -102,6 +102,9 @@
           <mxGeometry x="301" y="190" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vcyRGoeYWDUbNSrgcKIm-3" value="implements" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="vcyRGoeYWDUbNSrgcKIm-1" target="INFzdJkq7NAd5uIazOoC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcyRGoeYWDUbNSrgcKIm-4" value="pass in" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="vcyRGoeYWDUbNSrgcKIm-1" target="INFzdJkq7NAd5uIazOoC-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vcyRGoeYWDUbNSrgcKIm-1" value="Vistor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
