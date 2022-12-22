@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T11:06:10.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="E1fAi2AS9kCQnJmQDknR" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T11:52:24.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="Rh_I7uQ_Qz4Lbt27j-vF" type="github">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-1" value="&lt;a href=&quot;https://nnethercote.github.io/&quot;&gt;performance&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-1" value="&lt;a href=&quot;https://nnethercote.github.io/perf-book/&quot;&gt;performance&amp;nbsp;profiling&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mt1z9dbCmbJcAWYGLzbg-3" value="&lt;a href=&quot;https://blog.rust-lang.org/2022/10/28/gats-stabilization.html&quot;&gt;generic associated types&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
