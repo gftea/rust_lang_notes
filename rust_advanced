@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T10:52:40.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="st2I-u7X1jzdHjfc_5mW" type="github"><diagram id="fR1_RQR8OeVGfnALy_0T">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-22T11:05:25.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="ANL2QaqVTbtwgvAN7VTq" type="github">
+  <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
+    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-1" value="&lt;a href=&quot;https://nnethercote.github.io/&quot;&gt;performance&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-3" value="&lt;a href=&quot;https://blog.rust-lang.org/2022/10/28/gats-stabilization.html&quot;&gt;generic associated types&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-4" value="&lt;a href=&quot;https://rustc-dev-guide.rust-lang.org/overview.html&quot;&gt;understanding rustc&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-5" value="&lt;a href=&quot;https://rustwasm.github.io/book/&quot;&gt;webassembly&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-6" value="&lt;a href=&quot;https://mukulrathi.com/create-your-own-programming-language/llvm-ir-cpp-api-tutorial/&quot;&gt;llvm&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mt1z9dbCmbJcAWYGLzbg-7" target="mt1z9dbCmbJcAWYGLzbg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mt1z9dbCmbJcAWYGLzbg-7" target="mt1z9dbCmbJcAWYGLzbg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mt1z9dbCmbJcAWYGLzbg-7" target="mt1z9dbCmbJcAWYGLzbg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mt1z9dbCmbJcAWYGLzbg-7" target="mt1z9dbCmbJcAWYGLzbg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-7" value="algorithm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-8" value="&lt;a href=&quot;https://rust-lang-nursery.github.io/&quot;&gt;nursery&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-9" value="https://github.com/EbTech/rust-algorithms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="410" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-13" value="https://github.com/TheAlgorithms/Rust" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="500" width="230" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
