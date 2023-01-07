@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-07T17:21:32.313Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="TfLdftcZ17ZqYApoQX91" version="20.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-07T17:23:17.974Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="okD-y1bBJbJ07aqmC5fg" version="20.8.0" type="github" pages="2">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-1" target="gSneWNoRXbVCTi_5Gs6M-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gSneWNoRXbVCTi_5Gs6M-1" value="&lt;a style=&quot;text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_lexer/index.html&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;rustc_lexer&lt;/code&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-1" value="&lt;a style=&quot;text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_lexer/index.html&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;rustc_lexer&lt;/code&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="204" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-2" target="gSneWNoRXbVCTi_5Gs6M-1">
@@ -75,7 +75,7 @@
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-8" target="gSneWNoRXbVCTi_5Gs6M-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gSneWNoRXbVCTi_5Gs6M-8" value="&lt;a style=&quot;text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_parse/index.html&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;rustc_parse&lt;/code&gt;&lt;/a&gt;&lt;font face=&quot;Open Sans, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;::lexer&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-8" value="&lt;a style=&quot;text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_parse/index.html&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;rustc_parse&lt;/code&gt;&lt;/a&gt;&lt;font face=&quot;Open Sans, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;::lexer&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="530" y="80" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-10" target="gSneWNoRXbVCTi_5Gs6M-13">
@@ -87,7 +87,7 @@
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-13" target="gSneWNoRXbVCTi_5Gs6M-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gSneWNoRXbVCTi_5Gs6M-13" value="&lt;a style=&quot;border-color: var(--border-color); text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_parse/index.html&quot;&gt;&lt;code style=&quot;border-color: var(--border-color); font-size: 0.875em; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;rustc_parse&lt;/code&gt;&lt;/a&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Open Sans, sans-serif&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;::parser&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-13" value="&lt;a style=&quot;border-color: var(--border-color); text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_parse/index.html&quot;&gt;&lt;code style=&quot;border-color: var(--border-color); font-size: 0.875em; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;rustc_parse&lt;/code&gt;&lt;/a&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Open Sans, sans-serif&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;::parser&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="920" y="80" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-15" target="gSneWNoRXbVCTi_5Gs6M-17">
@@ -143,7 +143,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gSneWNoRXbVCTi_5Gs6M-35" value="code generation" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-35" value="code generation" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1068" y="215" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-36" target="gSneWNoRXbVCTi_5Gs6M-41">
@@ -151,6 +151,9 @@
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-36" value="MIR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="40" y="349" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-48" value="passed to" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-41" target="gSneWNoRXbVCTi_5Gs6M-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-41" value="LLVM IR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="240" y="349" width="120" height="60" as="geometry" />
@@ -162,6 +165,15 @@
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-44" value="where MIR is actually monomorphized" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="111" y="451" width="167" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-50" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-47" target="gSneWNoRXbVCTi_5Gs6M-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-47" value="LLVM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="454" y="349" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-49" value="machine codes" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="654" y="349" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
