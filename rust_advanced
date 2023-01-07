@@ -1,50 +1,148 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T11:52:24.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="Rh_I7uQ_Qz4Lbt27j-vF" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-07T17:17:58.613Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="DO5ixYp7MTzFkyWF_m0i" version="20.8.0" type="github" pages="2">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
-    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-1" value="&lt;a href=&quot;https://nnethercote.github.io/perf-book/&quot;&gt;performance&amp;nbsp;profiling&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-1" value="&lt;a href=&quot;https://nnethercote.github.io/perf-book/&quot;&gt;performance&amp;nbsp;profiling&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-3" value="&lt;a href=&quot;https://blog.rust-lang.org/2022/10/28/gats-stabilization.html&quot;&gt;generic associated types&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-3" value="&lt;a href=&quot;https://blog.rust-lang.org/2022/10/28/gats-stabilization.html&quot;&gt;generic associated types&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-4" value="&lt;a href=&quot;https://rustc-dev-guide.rust-lang.org/overview.html&quot;&gt;understanding rustc&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-4" value="&lt;a href=&quot;https://rustc-dev-guide.rust-lang.org/overview.html&quot;&gt;understanding rustc&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-5" value="&lt;a href=&quot;https://rustwasm.github.io/book/&quot;&gt;webassembly&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-5" value="&lt;a href=&quot;https://rustwasm.github.io/book/&quot;&gt;webassembly&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-6" value="&lt;a href=&quot;https://mukulrathi.com/create-your-own-programming-language/llvm-ir-cpp-api-tutorial/&quot;&gt;llvm&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-6" value="&lt;a href=&quot;https://mukulrathi.com/create-your-own-programming-language/llvm-ir-cpp-api-tutorial/&quot;&gt;llvm&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mt1z9dbCmbJcAWYGLzbg-7" target="mt1z9dbCmbJcAWYGLzbg-9">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mt1z9dbCmbJcAWYGLzbg-7" target="mt1z9dbCmbJcAWYGLzbg-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mt1z9dbCmbJcAWYGLzbg-7" target="mt1z9dbCmbJcAWYGLzbg-9">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mt1z9dbCmbJcAWYGLzbg-7" target="mt1z9dbCmbJcAWYGLzbg-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mt1z9dbCmbJcAWYGLzbg-7" target="mt1z9dbCmbJcAWYGLzbg-9">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mt1z9dbCmbJcAWYGLzbg-7" target="mt1z9dbCmbJcAWYGLzbg-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mt1z9dbCmbJcAWYGLzbg-7" target="mt1z9dbCmbJcAWYGLzbg-13">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mt1z9dbCmbJcAWYGLzbg-7" target="mt1z9dbCmbJcAWYGLzbg-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-7" value="algorithm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-7" value="algorithm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-8" value="&lt;a href=&quot;https://rust-lang-nursery.github.io/&quot;&gt;nursery&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-8" value="&lt;a href=&quot;https://rust-lang-nursery.github.io/&quot;&gt;nursery&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-9" value="https://github.com/EbTech/rust-algorithms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-9" value="https://github.com/EbTech/rust-algorithms" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="410" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-13" value="https://github.com/TheAlgorithms/Rust" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-13" value="https://github.com/TheAlgorithms/Rust" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="680" y="500" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mt1z9dbCmbJcAWYGLzbg-15" value="linux kernel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mt1z9dbCmbJcAWYGLzbg-15" value="linux kernel" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Hdx_PlnoEXASJm3JUnPD" name="rustc">
+    <mxGraphModel dx="1235" dy="646" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-1" target="gSneWNoRXbVCTi_5Gs6M-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-1" value="&lt;a style=&quot;text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_lexer/index.html&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;rustc_lexer&lt;/code&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-2" target="gSneWNoRXbVCTi_5Gs6M-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-2" value="source text" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-6" target="gSneWNoRXbVCTi_5Gs6M-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-6" value="tokens" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-8" target="gSneWNoRXbVCTi_5Gs6M-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-8" value="&lt;a style=&quot;text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_parse/index.html&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;rustc_parse&lt;/code&gt;&lt;/a&gt;&lt;font face=&quot;Open Sans, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;::lexer&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-10" target="gSneWNoRXbVCTi_5Gs6M-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-10" value="interned symbols" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-13" target="gSneWNoRXbVCTi_5Gs6M-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-13" value="&lt;a style=&quot;border-color: var(--border-color); text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_parse/index.html&quot;&gt;&lt;code style=&quot;border-color: var(--border-color); font-size: 0.875em; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;rustc_parse&lt;/code&gt;&lt;/a&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Open Sans, sans-serif&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;::parser&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-37" target="gSneWNoRXbVCTi_5Gs6M-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200.0588235294122" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1200" y="154" />
+              <mxPoint x="1200" y="177" />
+              <mxPoint x="20" y="177" />
+              <mxPoint x="20" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-21" value="used for" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-17" target="gSneWNoRXbVCTi_5Gs6M-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-17" value="HIR lowering" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-20" target="gSneWNoRXbVCTi_5Gs6M-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-20" value="&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start;&quot; href=&quot;https://rustc-dev-guide.rust-lang.org/type-inference.html&quot;&gt;&lt;em&gt;type inference&lt;/em&gt;&lt;/a&gt;&lt;br&gt;&lt;a style=&quot;text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start;&quot; href=&quot;https://rustc-dev-guide.rust-lang.org/traits/resolution.html&quot;&gt;&lt;em&gt;trait solving&lt;/em&gt;&lt;/a&gt;&lt;br&gt;&lt;a style=&quot;text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start;&quot; href=&quot;https://rustc-dev-guide.rust-lang.org/type-checking.html&quot;&gt;&lt;em&gt;type checking&lt;/em&gt;&lt;/a&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-25" value="used for" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-22" target="gSneWNoRXbVCTi_5Gs6M-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-22" value="MIR" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-24" target="gSneWNoRXbVCTi_5Gs6M-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1108" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-24" value="&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start;&quot; href=&quot;https://rustc-dev-guide.rust-lang.org/borrow_check.html&quot;&gt;borrow checking&lt;/a&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;monomorphization&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="225" width="192" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-29" target="gSneWNoRXbVCTi_5Gs6M-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-29" value="THIR" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-35" value="code generation" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1068" y="215" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="349" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-37" value="AST" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="70" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
