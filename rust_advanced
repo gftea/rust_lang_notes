@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-07T17:24:15.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="31uNg6CE_2neFfqIH-Sk" version="20.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-07T19:06:47.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="pOsMptJZd8z_57UiWeTR" version="20.8.0" type="github" pages="2">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Hdx_PlnoEXASJm3JUnPD" name="rustc">
-    <mxGraphModel dx="1235" dy="646" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1635" dy="646" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -137,9 +137,9 @@
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;dashed=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-35" target="gSneWNoRXbVCTi_5Gs6M-36">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1108" y="311" />
-              <mxPoint x="20" y="311" />
-              <mxPoint x="20" y="379" />
+              <mxPoint x="1108" y="443" />
+              <mxPoint x="4" y="443" />
+              <mxPoint x="4" y="499" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -150,36 +150,48 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-36" value="MIR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="349" width="120" height="60" as="geometry" />
+          <mxGeometry x="31" y="469" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-48" value="passed to" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-41" target="gSneWNoRXbVCTi_5Gs6M-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-41" value="LLVM IR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="240" y="349" width="120" height="60" as="geometry" />
+          <mxGeometry x="231" y="469" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-44">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="202" y="379" as="targetPoint" />
+            <mxPoint x="193" y="499" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-44" value="where MIR is actually monomorphized" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="111" y="451" width="167" height="30" as="geometry" />
+          <mxGeometry x="102" y="571" width="167" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-50" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-47" target="gSneWNoRXbVCTi_5Gs6M-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-47" value="LLVM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="454" y="349" width="120" height="60" as="geometry" />
+          <mxGeometry x="445" y="469" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-52" value="link" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-49" target="gSneWNoRXbVCTi_5Gs6M-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-49" value="machine codes&lt;br&gt;e.g. ELF object or WASM" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="654" y="349" width="120" height="60" as="geometry" />
+          <mxGeometry x="645" y="469" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-51" value="final binary" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="854" y="349" width="120" height="60" as="geometry" />
+          <mxGeometry x="845" y="469" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-54" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-53" target="gSneWNoRXbVCTi_5Gs6M-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-53" value="CFG&lt;br&gt;borrow checking&lt;br&gt;many optimizations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="524" y="311" width="167" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-56" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-55" target="gSneWNoRXbVCTi_5Gs6M-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-55" value="many optimizations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="425" y="578" width="167" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
