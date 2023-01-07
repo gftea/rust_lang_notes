@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-07T19:06:47.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="pOsMptJZd8z_57UiWeTR" version="20.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-07T19:47:50.708Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="M6ABrolZo3zIANFSxJex" version="20.8.0" type="github" pages="2">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,6 +117,9 @@
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-25" value="used for" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-22" target="gSneWNoRXbVCTi_5Gs6M-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-58" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-22" target="gSneWNoRXbVCTi_5Gs6M-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-22" value="MIR" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="595" y="225" width="120" height="60" as="geometry" />
         </mxCell>
@@ -185,13 +188,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-53" value="CFG&lt;br&gt;borrow checking&lt;br&gt;many optimizations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="524" y="311" width="167" height="54" as="geometry" />
+          <mxGeometry x="483" y="313" width="167" height="54" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-56" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="gSneWNoRXbVCTi_5Gs6M-55" target="gSneWNoRXbVCTi_5Gs6M-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-55" value="many optimizations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="425" y="578" width="167" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-57" value="MIRI - MIR interpreter&lt;br&gt;for profiling, debugging" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="659" y="316" width="167" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
