@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T11:05:58.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="JzG-QWCRmcLCh4gU6KI9" version="20.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-11T11:06:12.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="syNyuLDBQGrAv83L0RT6" version="20.8.3" type="github" pages="4">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="778" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -229,7 +229,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ScmpiOEL6KMtUT3qgMcz-6" value="compiler CLI" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="155" y="120" width="50" height="50" as="geometry" />
+          <mxGeometry x="147.5" y="107.5" width="65" height="65" as="geometry" />
         </mxCell>
         <mxCell id="ScmpiOEL6KMtUT3qgMcz-9" value="&lt;a style=&quot;text-decoration: none; color: var(--links); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/index.html&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;rustc_middle&lt;/code&gt;&lt;/a&gt;&lt;br&gt;(incl. query system)" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="360" width="130" height="40" as="geometry" />
