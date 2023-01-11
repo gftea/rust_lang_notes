@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T11:02:41.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="gXcGMEbeDGY97ZXDbArt" version="20.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-11T11:05:12.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ihws3yGAjvZgagswAqLz" version="20.8.3" type="github" pages="4">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="778" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -217,28 +217,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ScmpiOEL6KMtUT3qgMcz-1" value="&lt;a style=&quot;text-decoration: none; color: var(--links); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_driver/index.html&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;rustc_driver&lt;/code&gt;&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="260" width="130" height="40" as="geometry" />
+          <mxGeometry x="115" y="210" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ScmpiOEL6KMtUT3qgMcz-11" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ScmpiOEL6KMtUT3qgMcz-2" target="ScmpiOEL6KMtUT3qgMcz-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ScmpiOEL6KMtUT3qgMcz-2" value="&lt;a style=&quot;text-decoration: none; color: var(--links); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_interface/index.html&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;rustc_interface&lt;/code&gt;&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="315" y="330" width="160" height="40" as="geometry" />
+          <mxGeometry x="100" y="280" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ScmpiOEL6KMtUT3qgMcz-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ScmpiOEL6KMtUT3qgMcz-6" target="ScmpiOEL6KMtUT3qgMcz-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ScmpiOEL6KMtUT3qgMcz-6" value="compiler CLI" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="370" y="170" width="50" height="50" as="geometry" />
+          <mxGeometry x="155" y="120" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ScmpiOEL6KMtUT3qgMcz-9" value="&lt;a style=&quot;text-decoration: none; color: var(--links); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/index.html&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;rustc_middle&lt;/code&gt;&lt;/a&gt;&lt;br&gt;(incl. query system)" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="410" width="130" height="40" as="geometry" />
+          <mxGeometry x="115" y="360" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sUIpSYKbahaaNN1z7DIM-9" value="query not in cache" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wtGSzmNk4sGQ-n6yuAuz-1" target="sUIpSYKbahaaNN1z7DIM-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wtGSzmNk4sGQ-n6yuAuz-1" value="&lt;font face=&quot;Source Code Pro, Consolas, Ubuntu Mono, Menlo, DejaVu Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(246, 247, 246);&quot;&gt;TyCtxt&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="190" width="90" height="40" as="geometry" />
+          <mxGeometry x="350" y="120" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sUIpSYKbahaaNN1z7DIM-4" value="&lt;font face=&quot;Source Code Pro, Consolas, Ubuntu Mono, Menlo, DejaVu Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(246, 247, 246);&quot;&gt;Providers&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="260" width="90" height="40" as="geometry" />
+          <mxGeometry x="355" y="210" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
