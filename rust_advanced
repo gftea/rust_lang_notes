@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T18:15:16.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="4W4paR0JqZdeXI6Z4VgM" version="20.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-13T15:44:41.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="IWcCfMC5DIuBI0vYAx8w" version="20.8.4" type="github" pages="4">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="778" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -203,17 +203,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vE_hvUv47ey27zNFTUub" name="rustc software arch">
-    <mxGraphModel dx="777" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ScmpiOEL6KMtUT3qgMcz-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ScmpiOEL6KMtUT3qgMcz-1" target="ScmpiOEL6KMtUT3qgMcz-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sUIpSYKbahaaNN1z7DIM-3" value="create" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ScmpiOEL6KMtUT3qgMcz-1" target="wtGSzmNk4sGQ-n6yuAuz-1">
+        <mxCell id="sUIpSYKbahaaNN1z7DIM-3" value="create" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ScmpiOEL6KMtUT3qgMcz-1" target="wtGSzmNk4sGQ-n6yuAuz-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sUIpSYKbahaaNN1z7DIM-6" value="create" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ScmpiOEL6KMtUT3qgMcz-1" target="sUIpSYKbahaaNN1z7DIM-4">
+        <mxCell id="sUIpSYKbahaaNN1z7DIM-6" value="create" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ScmpiOEL6KMtUT3qgMcz-1" target="sUIpSYKbahaaNN1z7DIM-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ScmpiOEL6KMtUT3qgMcz-1" value="&lt;a style=&quot;text-decoration: none; color: var(--links); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_driver/index.html&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;rustc_driver&lt;/code&gt;&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -234,55 +234,67 @@
         <mxCell id="ScmpiOEL6KMtUT3qgMcz-9" value="&lt;a style=&quot;text-decoration: none; color: var(--links); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/index.html&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;rustc_middle&lt;/code&gt;&lt;/a&gt;&lt;br&gt;(incl. query system)" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="360" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sUIpSYKbahaaNN1z7DIM-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wtGSzmNk4sGQ-n6yuAuz-1" target="sUIpSYKbahaaNN1z7DIM-12">
+        <mxCell id="sUIpSYKbahaaNN1z7DIM-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wtGSzmNk4sGQ-n6yuAuz-1" target="sUIpSYKbahaaNN1z7DIM-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wtGSzmNk4sGQ-n6yuAuz-1" value="&lt;font face=&quot;Source Code Pro, Consolas, Ubuntu Mono, Menlo, DejaVu Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(246, 247, 246);&quot;&gt;TyCtxt (type context, i.e. query context)&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wtGSzmNk4sGQ-n6yuAuz-1" value="&lt;font face=&quot;Source Code Pro, Consolas, Ubuntu Mono, Menlo, DejaVu Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(246, 247, 246);&quot;&gt;TyCtxt (type context, i.e. query context)&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="265" y="80" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sUIpSYKbahaaNN1z7DIM-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sUIpSYKbahaaNN1z7DIM-4" target="sUIpSYKbahaaNN1z7DIM-10">
+        <mxCell id="sUIpSYKbahaaNN1z7DIM-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sUIpSYKbahaaNN1z7DIM-4" target="sUIpSYKbahaaNN1z7DIM-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sUIpSYKbahaaNN1z7DIM-4" value="&lt;font face=&quot;Source Code Pro, Consolas, Ubuntu Mono, Menlo, DejaVu Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(246, 247, 246);&quot;&gt;Providers&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sUIpSYKbahaaNN1z7DIM-4" value="&lt;font face=&quot;Source Code Pro, Consolas, Ubuntu Mono, Menlo, DejaVu Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(246, 247, 246);&quot;&gt;Providers&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="355" y="210" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sUIpSYKbahaaNN1z7DIM-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sUIpSYKbahaaNN1z7DIM-10" target="sUIpSYKbahaaNN1z7DIM-15">
+        <mxCell id="sUIpSYKbahaaNN1z7DIM-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sUIpSYKbahaaNN1z7DIM-10" target="sUIpSYKbahaaNN1z7DIM-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sUIpSYKbahaaNN1z7DIM-10" value="&lt;font face=&quot;Source Code Pro, Consolas, Ubuntu Mono, Menlo, DejaVu Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(246, 247, 246);&quot;&gt;provider (= query function)&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sUIpSYKbahaaNN1z7DIM-10" value="&lt;font face=&quot;Source Code Pro, Consolas, Ubuntu Mono, Menlo, DejaVu Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(246, 247, 246);&quot;&gt;provider (= query function)&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="210" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sUIpSYKbahaaNN1z7DIM-14" value="no" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUIpSYKbahaaNN1z7DIM-12" target="sUIpSYKbahaaNN1z7DIM-4">
+        <mxCell id="sUIpSYKbahaaNN1z7DIM-14" value="no" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sUIpSYKbahaaNN1z7DIM-12" target="sUIpSYKbahaaNN1z7DIM-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sUIpSYKbahaaNN1z7DIM-12" value="query in cache?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sUIpSYKbahaaNN1z7DIM-12" value="query in cache?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="445" y="107.5" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sUIpSYKbahaaNN1z7DIM-15" value="&lt;font face=&quot;Source Code Pro, Consolas, Ubuntu Mono, Menlo, DejaVu Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(246, 247, 246);&quot;&gt;return query result&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sUIpSYKbahaaNN1z7DIM-15" value="&lt;font face=&quot;Source Code Pro, Consolas, Ubuntu Mono, Menlo, DejaVu Sans Mono, monospace, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(246, 247, 246);&quot;&gt;return query result&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="210" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="87Afn0jQLPgqH64qzXPn" name="conepts">
-    <mxGraphModel dx="777" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WtjXfA5k3WFducn4NjEW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WtjXfA5k3WFducn4NjEW-1" target="WtjXfA5k3WFducn4NjEW-2">
+        <mxCell id="WtjXfA5k3WFducn4NjEW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WtjXfA5k3WFducn4NjEW-1" target="WtjXfA5k3WFducn4NjEW-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WtjXfA5k3WFducn4NjEW-1" value="crate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WtjXfA5k3WFducn4NjEW-1" value="crate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WtjXfA5k3WFducn4NjEW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WtjXfA5k3WFducn4NjEW-2" target="WtjXfA5k3WFducn4NjEW-4">
+        <mxCell id="WtjXfA5k3WFducn4NjEW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WtjXfA5k3WFducn4NjEW-2" target="WtjXfA5k3WFducn4NjEW-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WtjXfA5k3WFducn4NjEW-2" value="code-gen units&lt;br&gt;(= LLVM modules)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WtjXfA5k3WFducn4NjEW-2" value="code-gen units&lt;br&gt;(= LLVM modules)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WtjXfA5k3WFducn4NjEW-4" value="LLVM compile in parallel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WtjXfA5k3WFducn4NjEW-4" value="LLVM compile in parallel" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bECCwNWumridJ42YiKGE-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="bECCwNWumridJ42YiKGE-1" target="WtjXfA5k3WFducn4NjEW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bECCwNWumridJ42YiKGE-1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;A&amp;nbsp;&lt;em style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;crate&lt;/em&gt;&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;is the smallest amount of code that the Rust compiler considers at a time.&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bECCwNWumridJ42YiKGE-4" value="&lt;h1&gt;Lexing&lt;/h1&gt;&lt;p&gt;Lexing takes strings and turns them into streams of&amp;nbsp;&lt;a style=&quot;text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_ast/token/index.html&quot;&gt;tokens&lt;/a&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bECCwNWumridJ42YiKGE-5" value="&lt;h1&gt;Parsing&lt;/h1&gt;&lt;p&gt;Parsing then takes streams of tokens and turns them into a structured form which is easier for the compiler to work with, usually called an&amp;nbsp;&lt;a style=&quot;text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot; href=&quot;https://en.wikipedia.org/wiki/Abstract_syntax_tree&quot;&gt;&lt;em&gt;Abstract Syntax Tree&lt;/em&gt;&lt;/a&gt;&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(AST).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;An AST mirrors the structure of a Rust program in memory, using a&amp;nbsp;&lt;code style=&quot;font-size: 0.875em; display: inline; overflow-x: initial; background: rgb(246, 247, 246); color: var(--inline-code-color); padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;Span&lt;/code&gt;&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;to link a particular AST node back to its source text.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="390" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
