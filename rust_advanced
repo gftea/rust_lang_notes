@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T16:06:12.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ln4UzTP3pSVgEf1FIOlH" version="20.8.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-01-16T16:06:20.075Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="GzNXhOTzCLUvOvPcse8a" version="20.8.4" type="github" pages="8">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="778" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -611,7 +611,7 @@
         <mxCell id="uiArKKpuWIqDy6b6RtFr-39" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="uiArKKpuWIqDy6b6RtFr-36" target="uiArKKpuWIqDy6b6RtFr-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uiArKKpuWIqDy6b6RtFr-36" value="mir_validated(D)" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-36" value="mir_validated(DefId)" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="160" y="837" width="163" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uiArKKpuWIqDy6b6RtFr-38" value="optimized_mir(DefId)" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
