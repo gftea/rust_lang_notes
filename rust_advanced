@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T16:12:41.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Wmk8mx6o352gAPQ8xgrc" version="20.8.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-01-16T16:13:30.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="R9kjls4KPayyvolrJit0" version="20.8.4" type="github" pages="8">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="778" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -439,11 +439,14 @@
         <mxCell id="DSmtzsz6CvfKKIH6hoj3-8" value="rustc_hir::def_id::DefId" style="html=1;fontSize=12;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="244" y="86" width="176" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jt-UJO6eC-Qev3351XjT-6" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="DSmtzsz6CvfKKIH6hoj3-11" target="jt-UJO6eC-Qev3351XjT-5">
+        <mxCell id="jt-UJO6eC-Qev3351XjT-6" value="local id" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="DSmtzsz6CvfKKIH6hoj3-11" target="jt-UJO6eC-Qev3351XjT-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DSmtzsz6CvfKKIH6hoj3-11" value="rustc_hir::def_id::LocalDefId" style="html=1;fontSize=12;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="242" y="147" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jt-UJO6eC-Qev3351XjT-9" value="local id" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="DSmtzsz6CvfKKIH6hoj3-13" target="jt-UJO6eC-Qev3351XjT-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DSmtzsz6CvfKKIH6hoj3-13" value="rustc_hir::hir_id::HirId" style="html=1;fontSize=12;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="240" y="205" width="180" height="50" as="geometry" />
@@ -473,10 +476,13 @@
           <mxGeometry x="261" y="-61" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jt-UJO6eC-Qev3351XjT-1" value="definition, Top Level item&lt;br&gt;in a given crate" style="html=1;fontSize=12;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="500" y="86" width="176" height="50" as="geometry" />
+          <mxGeometry x="536" y="46" width="176" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jt-UJO6eC-Qev3351XjT-5" value="local DefId in current crate" style="html=1;fontSize=12;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="496" y="155" width="180" height="50" as="geometry" />
+          <mxGeometry x="540" y="149" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jt-UJO6eC-Qev3351XjT-8" value="A node in HIR of current crate" style="html=1;fontSize=12;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="538" y="211" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
