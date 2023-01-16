@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-15T16:20:19.476Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="qG8dl3fw6FiW_v3-GDX2" version="20.8.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-01-16T15:52:14.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="tsJ4QzqR7UFBGrUhrO8A" version="20.8.4" type="github" pages="8">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="778" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Hdx_PlnoEXASJm3JUnPD" name="rustc overview">
-    <mxGraphModel dx="1178" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1834" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -505,10 +505,64 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GA4R2MTzGp25I0Cmizgv" name="MIR">
-    <mxGraphModel dx="1050" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1834" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-4" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="uiArKKpuWIqDy6b6RtFr-1" target="uiArKKpuWIqDy6b6RtFr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="uiArKKpuWIqDy6b6RtFr-1" target="uiArKKpuWIqDy6b6RtFr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="uiArKKpuWIqDy6b6RtFr-1" target="uiArKKpuWIqDy6b6RtFr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="uiArKKpuWIqDy6b6RtFr-1" target="uiArKKpuWIqDy6b6RtFr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-1" value="MIR vocabulary" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="189" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-6" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="uiArKKpuWIqDy6b6RtFr-3" target="uiArKKpuWIqDy6b6RtFr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-8" value="1..n" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="uiArKKpuWIqDy6b6RtFr-3" target="uiArKKpuWIqDy6b6RtFr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-10" value="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="uiArKKpuWIqDy6b6RtFr-3" target="uiArKKpuWIqDy6b6RtFr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-3" value="Basic Blocks" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="33" y="228" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-5" value="statements" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-34" y="329" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-9" value="terminators" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="94" y="332" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-12" value="Locals" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="228" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-14" value="Places" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="351" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-19" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="uiArKKpuWIqDy6b6RtFr-15" target="uiArKKpuWIqDy6b6RtFr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-15" value="Rvalues" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="482" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-18" value="Operands" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="486" y="332" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Method calls are lowered to the same&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;code style=&quot;font-size: 0.875em; display: inline; overflow-x: initial; background: rgb(246, 247, 246); color: var(--inline-code-color); padding: 0.1em 0.3em; border-radius: 3px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;TerminatorKind&lt;/code&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;that function calls are. In&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;a style=&quot;text-decoration: none; color: var(--links); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);&quot; href=&quot;https://rustc-dev-guide.rust-lang.org/mir/index.html&quot;&gt;MIR&lt;/a&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;there is no difference between method calls and function calls anymore.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="412" y="421" width="550" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uiArKKpuWIqDy6b6RtFr-21" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;The key idea of a &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;basic block &lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;is that it is a set of statements that execute &quot;together&quot; – that is, whenever you branch to a basic block, you start at the first statement and then execute all the remainder. Only at the end of the block is there the possibility of branching to more than one place (in MIR, we call that final statement the&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;strong style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;terminator&lt;/strong&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;):&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-179" y="409" width="550" height="118" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
