@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T16:16:04.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="q_sj0rC0HskVGUSGu5oa" version="20.8.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-01-16T16:16:33.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="LPGJf7-s6qkuMvtX9FXg" version="20.8.4" type="github" pages="8">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="778" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -487,8 +487,8 @@
         <mxCell id="jt-UJO6eC-Qev3351XjT-5" value="definition, &lt;br&gt;local DefId in current crate" style="html=1;fontSize=12;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="540" y="149" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jt-UJO6eC-Qev3351XjT-8" value="A &lt;b&gt;node &lt;/b&gt;in HIR of current crate" style="html=1;fontSize=12;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="526" y="250" width="180" height="50" as="geometry" />
+        <mxCell id="jt-UJO6eC-Qev3351XjT-8" value="A &lt;b&gt;node &lt;/b&gt;in HIR of current crate&lt;br&gt;fine-grained entitites like expression" style="html=1;fontSize=12;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="526" y="250" width="232" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jt-UJO6eC-Qev3351XjT-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="jt-UJO6eC-Qev3351XjT-10" target="jt-UJO6eC-Qev3351XjT-12">
           <mxGeometry relative="1" as="geometry" />
