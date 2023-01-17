@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T16:16:33.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="LPGJf7-s6qkuMvtX9FXg" version="20.8.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-01-17T12:41:29.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="l9l55fD4kg3ZAGeTNg25" version="20.8.4" type="github" pages="8">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="778" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Hdx_PlnoEXASJm3JUnPD" name="rustc overview">
-    <mxGraphModel dx="1834" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1097" dy="644" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -137,23 +137,18 @@
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-29" value="THIR" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="225" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gSneWNoRXbVCTi_5Gs6M-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;dashed=1;" parent="1" source="gSneWNoRXbVCTi_5Gs6M-35" target="gSneWNoRXbVCTi_5Gs6M-36" edge="1">
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;dashed=1;" parent="1" source="gSneWNoRXbVCTi_5Gs6M-35" target="gSneWNoRXbVCTi_5Gs6M-41" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1108" y="443" />
-              <mxPoint x="4" y="443" />
-              <mxPoint x="4" y="499" />
+              <mxPoint x="100" y="443" />
+              <mxPoint x="100" y="499" />
             </Array>
+            <mxPoint x="31" y="499" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-35" value="code generation" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1068" y="215" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="gSneWNoRXbVCTi_5Gs6M-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="gSneWNoRXbVCTi_5Gs6M-36" target="gSneWNoRXbVCTi_5Gs6M-41" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gSneWNoRXbVCTi_5Gs6M-36" value="MIR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="31" y="469" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-48" value="passed to" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="gSneWNoRXbVCTi_5Gs6M-41" target="gSneWNoRXbVCTi_5Gs6M-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -203,7 +198,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vE_hvUv47ey27zNFTUub" name="rustc software arch">
-    <mxGraphModel dx="1290" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -265,7 +260,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="87Afn0jQLPgqH64qzXPn" name="conepts">
-    <mxGraphModel dx="1450" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="644" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -541,7 +536,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GA4R2MTzGp25I0Cmizgv" name="MIR">
-    <mxGraphModel dx="2261" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2048" dy="644" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
