@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T12:41:29.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="l9l55fD4kg3ZAGeTNg25" version="20.8.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-01-17T12:42:44.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2VEw9R-DrzUsznodmWWB" version="20.8.4" type="github" pages="8">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="778" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,19 +88,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-13" value="&lt;a style=&quot;border-color: var(--border-color); text-decoration-line: none; font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; href=&quot;https://doc.rust-lang.org/nightly/nightly-rustc/rustc_parse/index.html&quot;&gt;&lt;code style=&quot;border-color: var(--border-color); font-size: 0.875em; display: inline; overflow-x: auto; background: rgb(246, 247, 246); color: var(--links); padding: 0.1em 0.3em; border-radius: 3px; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important;&quot; class=&quot;hljs&quot;&gt;rustc_parse&lt;/code&gt;&lt;/a&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Open Sans, sans-serif&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;::parser&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="920" y="80" width="160" height="60" as="geometry" />
+          <mxGeometry x="872" y="80" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gSneWNoRXbVCTi_5Gs6M-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gSneWNoRXbVCTi_5Gs6M-15" target="gSneWNoRXbVCTi_5Gs6M-17" edge="1">
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="gSneWNoRXbVCTi_5Gs6M-15" target="gSneWNoRXbVCTi_5Gs6M-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1200" y="177" />
+              <mxPoint x="1118" y="177" />
               <mxPoint x="20" y="177" />
               <mxPoint x="20" y="255" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-15" value="AST" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="80" width="75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-21" value="used for" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gSneWNoRXbVCTi_5Gs6M-17" target="gSneWNoRXbVCTi_5Gs6M-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
