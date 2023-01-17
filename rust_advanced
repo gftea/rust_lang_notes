@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T16:44:54.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Tc-jp1YNFpXqwxQrlLKU" version="20.8.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-01-17T16:45:03.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="lxvQ5cCNlOjVFlzmxX_u" version="20.8.4" type="github" pages="9">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="778" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -509,33 +509,33 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-1" value="rustc_hir::Ty" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="444.5" y="80" width="110" height="50" as="geometry" />
+          <mxGeometry x="452.5" y="31" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="IVeBpySnyUJkgv7iT61_-2" target="IVeBpySnyUJkgv7iT61_-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-2" value="rustc_middle::ty::Ty" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="432" y="178" width="135" height="50" as="geometry" />
+          <mxGeometry x="440" y="129" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="IVeBpySnyUJkgv7iT61_-4" target="IVeBpySnyUJkgv7iT61_-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-4" value="Syntax only" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="592" y="74" width="90" height="29" as="geometry" />
+          <mxGeometry x="600" y="25" width="90" height="29" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="IVeBpySnyUJkgv7iT61_-6" target="IVeBpySnyUJkgv7iT61_-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-6" value="Semantics" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="604" y="174" width="83" height="29" as="geometry" />
+          <mxGeometry x="612" y="125" width="83" height="29" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;exitX=0;exitY=0.345;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IVeBpySnyUJkgv7iT61_-8" target="IVeBpySnyUJkgv7iT61_-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="636.6759259259261" y="228" as="sourcePoint" />
+            <mxPoint x="644.6759259259261" y="179" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-8" value="alwasy canonicalized and interned" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="608.5" y="212" width="231" height="29" as="geometry" />
+          <mxGeometry x="616.5" y="163" width="231" height="29" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="IVeBpySnyUJkgv7iT61_-10" target="IVeBpySnyUJkgv7iT61_-12">
           <mxGeometry relative="1" as="geometry" />
@@ -565,7 +565,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-10" value="ty::TyKind" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="432" y="264" width="135" height="50" as="geometry" />
+          <mxGeometry x="440" y="215" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="IVeBpySnyUJkgv7iT61_-12" target="IVeBpySnyUJkgv7iT61_-14">
           <mxGeometry relative="1" as="geometry" />
@@ -577,43 +577,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-12" value="ADT" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="68" y="421" width="83" height="50" as="geometry" />
+          <mxGeometry x="76" y="372" width="83" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-14" value="struct" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="11" y="508" width="73" height="50" as="geometry" />
+          <mxGeometry x="19" y="459" width="73" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-16" value="enum" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="90" y="508" width="73" height="50" as="geometry" />
+          <mxGeometry x="98" y="459" width="73" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-17" value="union" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="168" y="508" width="73" height="50" as="geometry" />
+          <mxGeometry x="176" y="459" width="73" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-20" value="Foreign" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="185" y="421" width="83" height="50" as="geometry" />
+          <mxGeometry x="193" y="372" width="83" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-22" value="Str" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="282" y="421" width="83" height="50" as="geometry" />
+          <mxGeometry x="290" y="372" width="83" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-23" value="Slice" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="383" y="421" width="83" height="50" as="geometry" />
+          <mxGeometry x="391" y="372" width="83" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-24" value="Array" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="484" y="421" width="83" height="50" as="geometry" />
+          <mxGeometry x="492" y="372" width="83" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-28" value="RawPtr" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="581.5" y="421" width="83" height="50" as="geometry" />
+          <mxGeometry x="589.5" y="372" width="83" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-29" value="Ref" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="680" y="421" width="83" height="50" as="geometry" />
+          <mxGeometry x="688" y="372" width="83" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-30" value="Param" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="792" y="421" width="83" height="50" as="geometry" />
+          <mxGeometry x="800" y="372" width="83" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-31" value="Error" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="901" y="421" width="83" height="50" as="geometry" />
+          <mxGeometry x="909" y="372" width="83" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IVeBpySnyUJkgv7iT61_-36" value="&lt;p style=&quot;line-height: 1.45em; color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;During type checking, we do not store the results of trait selection. We simply wish to verify that trait selection will succeed. Then later, at codegen time, when we have all concrete types available, we can repeat the trait selection to choose an actual implementation, which will then be generated in the output binary.&lt;/p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="21" y="578" width="792" height="108" as="geometry" />
+          <mxGeometry x="29" y="529" width="792" height="108" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
