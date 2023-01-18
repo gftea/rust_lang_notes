@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-18T18:54:07.896Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ZJytST-cn_XO0LvuMmJ0" version="20.8.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-01-18T18:54:54.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="S8rX0jlaSAS3VthZBryi" version="20.8.4" type="github" pages="11">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,7 +155,7 @@
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-50" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="gSneWNoRXbVCTi_5Gs6M-47" target="gSneWNoRXbVCTi_5Gs6M-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gSneWNoRXbVCTi_5Gs6M-47" value="LLVM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="gSneWNoRXbVCTi_5Gs6M-47" value="LLVM codegen&lt;br&gt;backend" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="445" y="469" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gSneWNoRXbVCTi_5Gs6M-52" value="link" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="gSneWNoRXbVCTi_5Gs6M-49" target="gSneWNoRXbVCTi_5Gs6M-51" edge="1">
