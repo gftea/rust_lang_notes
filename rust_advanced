@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T16:52:52.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="_NEUF5S_ZMLDI0nt0LQ0" version="20.8.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-01-18T10:09:53.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="njJvqShA0SHNBZu7gx_g" version="20.8.4" type="github" pages="10">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="778" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -501,7 +501,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hnnklKSHB_LCg-bBTvU5" name="type-checking">
-    <mxGraphModel dx="1097" dy="644" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1310" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -774,6 +774,17 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gPYjAyd6lSDTuqMhygZV" name="method lookup">
+    <mxGraphModel dx="1310" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qJ1JQYu2MnUDo8NQwFbV-1" value="&lt;p style=&quot;line-height: 1.45em; color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;we convert an expression of the form&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: initial; background: rgb(246, 247, 246); color: var(--inline-code-color); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;receiver.method(...)&lt;/code&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;into a more explicit&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;text-decoration: none; color: var(--links);&quot; href=&quot;https://doc.rust-lang.org/nightly/book/ch19-03-advanced-traits.html#fully-qualified-syntax-for-disambiguation-calling-methods-with-the-same-name&quot;&gt;fully-qualified syntax&lt;/a&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;(formerly called&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;text-decoration: none; color: var(--links);&quot; href=&quot;https://github.com/rust-lang/rfcs/blob/master/text/0132-ufcs.md&quot;&gt;UFCS&lt;/a&gt;):&lt;/p&gt;&lt;ul style=&quot;line-height: 1.45em; color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: initial; background: rgb(246, 247, 246); color: var(--inline-code-color); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;Trait::method(ADJ(receiver), ...)&lt;/code&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;for a trait call&lt;/li&gt;&lt;li&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: initial; background: rgb(246, 247, 246); color: var(--inline-code-color); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;ReceiverType::method(ADJ(receiver), ...)&lt;/code&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;for an inherent method call&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;line-height: 1.45em; color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Here&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-size: 0.875em; font-family: &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace, monospace !important; display: inline; overflow-x: initial; background: rgb(246, 247, 246); color: var(--inline-code-color); padding: 0.1em 0.3em; border-radius: 3px;&quot; class=&quot;hljs&quot;&gt;ADJ&lt;/code&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;is some kind of adjustment, which is typically a series of autoderefs and the&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="35" y="57" width="550" height="252" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
