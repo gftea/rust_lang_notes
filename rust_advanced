@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-18T10:18:35.021Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="am2lXHSSHY1rc7Dhj5p0" version="20.8.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-01-18T10:18:52.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8FYk0BfNZOjoC1pZl0gz" version="20.8.4" type="github" pages="10">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="778" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -801,16 +801,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qJ1JQYu2MnUDo8NQwFbV-6" value="Extension candidates" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="36" y="475" width="141" height="50" as="geometry" />
+          <mxGeometry x="15" y="475" width="162" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qJ1JQYu2MnUDo8NQwFbV-8" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="qJ1JQYu2MnUDo8NQwFbV-7" target="qJ1JQYu2MnUDo8NQwFbV-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJ1JQYu2MnUDo8NQwFbV-10" value="considered before" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.383;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="qJ1JQYu2MnUDo8NQwFbV-7" target="qJ1JQYu2MnUDo8NQwFbV-6">
+        <mxCell id="qJ1JQYu2MnUDo8NQwFbV-10" value="considered before" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="qJ1JQYu2MnUDo8NQwFbV-7" target="qJ1JQYu2MnUDo8NQwFbV-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qJ1JQYu2MnUDo8NQwFbV-7" value="Inherent candidates" style="html=1;fontSize=14;fontColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="47" y="306" width="110" height="50" as="geometry" />
+          <mxGeometry x="17" y="306" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
