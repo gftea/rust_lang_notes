@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-25T10:17:59.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ZTs6FSsSeIK4msKOS1J0" version="20.8.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-25T12:50:59.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Q6WGLyE9MAfV8WUvhgJx" version="20.8.10" type="github" pages="2">
   <diagram name="mental model" id="OpO0WnJAcA_Msb2Jwc11">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,8 +68,14 @@
         <mxCell id="DC8aXrNcwadSd0Krobwx-4" value="poll" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="160" width="80" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="DC8aXrNcwadSd0Krobwx-9" value="ISQE_IO_LINK" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DC8aXrNcwadSd0Krobwx-5" target="DC8aXrNcwadSd0Krobwx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DC8aXrNcwadSd0Krobwx-5" value="force SQE ordering" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="280" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DC8aXrNcwadSd0Krobwx-8" value="linking request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
