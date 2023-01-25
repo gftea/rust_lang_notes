@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-25T13:29:09.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hV_T2MsVYCx68FtQZADu" version="20.8.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-25T13:31:37.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wTcNm_ZNQmeFBS9Cgdy5" version="20.8.10" type="github" pages="2">
   <diagram name="mental model" id="OpO0WnJAcA_Msb2Jwc11">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
         <mxCell id="DC8aXrNcwadSd0Krobwx-17" value="wait for io_uring completion event" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DC8aXrNcwadSd0Krobwx-14" target="DC8aXrNcwadSd0Krobwx-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DC8aXrNcwadSd0Krobwx-14" value="eventfd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DC8aXrNcwadSd0Krobwx-14" value="eventfd&lt;br&gt;instance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="420" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DC8aXrNcwadSd0Krobwx-16" value="read CQEs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
