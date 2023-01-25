@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-25T12:52:00.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1WrD5eZloeXSued0Erz6" version="20.8.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-25T13:29:09.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hV_T2MsVYCx68FtQZADu" version="20.8.10" type="github" pages="2">
   <diagram name="mental model" id="OpO0WnJAcA_Msb2Jwc11">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -65,7 +65,7 @@
         <mxCell id="DC8aXrNcwadSd0Krobwx-3" value="request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="70" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DC8aXrNcwadSd0Krobwx-4" value="poll" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DC8aXrNcwadSd0Krobwx-4" value="SQ Polling" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="150" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DC8aXrNcwadSd0Krobwx-9" value="ISQE_IO_LINK" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DC8aXrNcwadSd0Krobwx-5" target="DC8aXrNcwadSd0Krobwx-8">
@@ -76,6 +76,24 @@
         </mxCell>
         <mxCell id="DC8aXrNcwadSd0Krobwx-8" value="linking request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="280" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DC8aXrNcwadSd0Krobwx-12" value="Fixed buffers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="370" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DC8aXrNcwadSd0Krobwx-15" value="register&amp;nbsp;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DC8aXrNcwadSd0Krobwx-13" target="DC8aXrNcwadSd0Krobwx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DC8aXrNcwadSd0Krobwx-13" value="io_uring instance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="460" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DC8aXrNcwadSd0Krobwx-17" value="wait for io_uring completion event" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DC8aXrNcwadSd0Krobwx-14" target="DC8aXrNcwadSd0Krobwx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DC8aXrNcwadSd0Krobwx-14" value="eventfd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="420" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DC8aXrNcwadSd0Krobwx-16" value="read CQEs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="585" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
