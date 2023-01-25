@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-25T12:51:53.525Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="G-w5s25JjQXd6UGpNbcv" version="20.8.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-25T12:52:00.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1WrD5eZloeXSued0Erz6" version="20.8.10" type="github" pages="2">
   <diagram name="mental model" id="OpO0WnJAcA_Msb2Jwc11">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,11 +64,6 @@
         </mxCell>
         <mxCell id="DC8aXrNcwadSd0Krobwx-3" value="request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="70" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DC8aXrNcwadSd0Krobwx-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DC8aXrNcwadSd0Krobwx-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="180" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="DC8aXrNcwadSd0Krobwx-4" value="poll" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="150" width="80" height="60" as="geometry" />
