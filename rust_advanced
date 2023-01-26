@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T12:45:32.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0xVfS4swGXqgmIVetB6z" version="20.8.10" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-01-26T12:46:19.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="r5AqWA-M1QtOfMUvfPst" version="20.8.10" type="github" pages="11">
   <diagram id="YIyoXjQ8ebZuiORvvYXz" name="learning plan">
     <mxGraphModel dx="1434" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,16 +8,16 @@
           <mxGeometry x="70" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mt1z9dbCmbJcAWYGLzbg-3" value="&lt;a href=&quot;https://blog.rust-lang.org/2022/10/28/gats-stabilization.html&quot;&gt;generic associated types&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="232" y="338" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mt1z9dbCmbJcAWYGLzbg-4" value="&lt;a href=&quot;https://rustc-dev-guide.rust-lang.org/overview.html&quot;&gt;understanding rustc&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="70" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mt1z9dbCmbJcAWYGLzbg-5" value="&lt;a href=&quot;https://rustwasm.github.io/book/&quot;&gt;webassembly&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="394" y="338" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mt1z9dbCmbJcAWYGLzbg-6" value="&lt;a href=&quot;https://mukulrathi.com/create-your-own-programming-language/llvm-ir-cpp-api-tutorial/&quot;&gt;llvm&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="243" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mt1z9dbCmbJcAWYGLzbg-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mt1z9dbCmbJcAWYGLzbg-7" target="mt1z9dbCmbJcAWYGLzbg-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -32,22 +32,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mt1z9dbCmbJcAWYGLzbg-7" value="algorithm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="591" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mt1z9dbCmbJcAWYGLzbg-8" value="&lt;a href=&quot;https://rust-lang-nursery.github.io/&quot;&gt;nursery&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="232" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mt1z9dbCmbJcAWYGLzbg-9" value="https://github.com/EbTech/rust-algorithms" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="410" width="250" height="60" as="geometry" />
+          <mxGeometry x="270" y="551" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mt1z9dbCmbJcAWYGLzbg-13" value="https://github.com/TheAlgorithms/Rust" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="680" y="500" width="230" height="60" as="geometry" />
+          <mxGeometry x="270" y="641" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mt1z9dbCmbJcAWYGLzbg-15" value="linux kernel" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="336" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_mu-VjphJWv9N4E6IGMt-3" value="&lt;ol&gt;&lt;li&gt;read the rust std library codes&lt;/li&gt;&lt;li&gt;read the rustc-perf codes&amp;nbsp;https://github.com/rust-lang/rustc-perf/tree/master/collector&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="294" y="29" width="520" height="150" as="geometry" />
+          <mxGeometry x="224" y="42" width="520" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
