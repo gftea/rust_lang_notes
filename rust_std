@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T18:51:22.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="7_ng2BSWRPbs_zKov0WC" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T18:51:45.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="o2vNK70EVXTAtFNKx0u1" version="21.0.6" type="github">
   <diagram name="ffi" id="Fa7SLIgffgOPm7Xxr432">
     <mxGraphModel dx="1562" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,6 +41,11 @@
         <mxCell id="Qyhlqu4fTLKo0oXxRMzL-17" value="struct in C" style="fontStyle=1;fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
           <mxGeometry x="640" y="130" width="140" height="30" as="geometry" />
         </mxCell>
+        <UserObject label="https://rust-lang.github.io/unsafe-code-guidelines/layout/enums.html" link="https://rust-lang.github.io/unsafe-code-guidelines/layout/enums.html" id="5UOqfXZR7QlJNj0swojO-2">
+          <mxCell style="text;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="30" y="10" width="340" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
