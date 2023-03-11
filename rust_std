@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T18:51:45.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="o2vNK70EVXTAtFNKx0u1" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-11T12:07:34.626Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-vjSlqKOrqJ27d4IlF2v" version="21.0.6" type="github" pages="2">
   <diagram name="ffi" id="Fa7SLIgffgOPm7Xxr432">
-    <mxGraphModel dx="1562" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,10 +42,60 @@
           <mxGeometry x="640" y="130" width="140" height="30" as="geometry" />
         </mxCell>
         <UserObject label="https://rust-lang.github.io/unsafe-code-guidelines/layout/enums.html" link="https://rust-lang.github.io/unsafe-code-guidelines/layout/enums.html" id="5UOqfXZR7QlJNj0swojO-2">
-          <mxCell style="text;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
             <mxGeometry x="30" y="10" width="340" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lI2kwJhMYcZEiHhxruX4" name="fmt">
+    <mxGraphModel dx="1050" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-17" value="pass to" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zxcdyT6mKvH4FXY9HWhR-9" target="zxcdyT6mKvH4FXY9HWhR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-18" value="pass to" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zxcdyT6mKvH4FXY9HWhR-9" target="zxcdyT6mKvH4FXY9HWhR-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-9" value="Arguments" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zxcdyT6mKvH4FXY9HWhR-11" target="zxcdyT6mKvH4FXY9HWhR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-11" value="no heap allocation, precompiled version of format string" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="334" y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-13" value="create" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zxcdyT6mKvH4FXY9HWhR-12" target="zxcdyT6mKvH4FXY9HWhR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-12" value="format_args!" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="170" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-15" value="fmt::write" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-16" value="fmt::format" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-20" value="use" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.573;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zxcdyT6mKvH4FXY9HWhR-19" target="zxcdyT6mKvH4FXY9HWhR-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-19" value="format!" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="354" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-21" value="`{ }`" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.578;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zxcdyT6mKvH4FXY9HWhR-22" target="zxcdyT6mKvH4FXY9HWhR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zxcdyT6mKvH4FXY9HWhR-22" value="Display trait" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
