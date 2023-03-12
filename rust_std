@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-12T17:07:47.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="55XvstpvBIE4tK1m3O5L" version="21.0.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-12T17:48:52.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="GUZbhBJ_qDGznyquFRIA" version="21.0.6" type="github" pages="3">
   <diagram name="ffi" id="Fa7SLIgffgOPm7Xxr432">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,7 +185,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xQ3fcUAlNb47HGevf_G7-1" value="trait BuildHasher" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="285.800048828125" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="319.000048828125" y="68" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xQ3fcUAlNb47HGevf_G7-6" value="require" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="xQ3fcUAlNb47HGevf_G7-2" target="xQ3fcUAlNb47HGevf_G7-4">
           <mxGeometry relative="1" as="geometry" />
@@ -197,19 +197,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xQ3fcUAlNb47HGevf_G7-2" value="trait Hasher" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="285.800048828125" y="206" width="120" height="60" as="geometry" />
+          <mxGeometry x="319.000048828125" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xQ3fcUAlNb47HGevf_G7-4" value="write" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="231.000048828125" y="323" width="120" height="60" as="geometry" />
+          <mxGeometry x="226.000048828125" y="385" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xQ3fcUAlNb47HGevf_G7-5" value="finish" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="366.800048828125" y="323" width="120" height="60" as="geometry" />
+          <mxGeometry x="381.000048828125" y="383" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xQ3fcUAlNb47HGevf_G7-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="xQ3fcUAlNb47HGevf_G7-9" target="xQ3fcUAlNb47HGevf_G7-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xQ3fcUAlNb47HGevf_G7-9" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.75em; max-width: 100%; overflow-x: auto; color: rgb(0, 0, 0); font-family: &amp;quot;Source Serif 4&amp;quot;, NanumBarunGothic, serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Instances of&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; font-size: 1em; border-radius: 3px; padding: 0px 0.125em; background-color: var(--code-block-background-color);&quot;&gt;Hasher&lt;/code&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;usually represent state that is changed while hashing data.&lt;/p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="38.00000000000006" y="197" width="200.2" height="67" as="geometry" />
+          <mxGeometry x="79.00000000000006" y="284" width="200.2" height="67" as="geometry" />
         </mxCell>
         <mxCell id="xQ3fcUAlNb47HGevf_G7-11" value="trait Hash" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="513.000048828125" y="206" width="120" height="60" as="geometry" />
@@ -219,6 +219,33 @@
         </mxCell>
         <mxCell id="xQ3fcUAlNb47HGevf_G7-13" value="Hashable Type" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="569" y="78" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ3fcUAlNb47HGevf_G7-21" value="impl" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="xQ3fcUAlNb47HGevf_G7-15" target="xQ3fcUAlNb47HGevf_G7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ3fcUAlNb47HGevf_G7-22" value="if H: Default + Hasher" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="xQ3fcUAlNb47HGevf_G7-15" target="xQ3fcUAlNb47HGevf_G7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ3fcUAlNb47HGevf_G7-15" value="BuildHasherDefault&amp;lt;H&amp;gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="93" y="11" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ3fcUAlNb47HGevf_G7-17" value="trait Default" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="194" width="117" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ3fcUAlNb47HGevf_G7-19" value="impl" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="xQ3fcUAlNb47HGevf_G7-18" target="xQ3fcUAlNb47HGevf_G7-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ3fcUAlNb47HGevf_G7-20" value="impl" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="xQ3fcUAlNb47HGevf_G7-18" target="xQ3fcUAlNb47HGevf_G7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ3fcUAlNb47HGevf_G7-18" value="type H" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="107.55" y="110" width="90.9" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ3fcUAlNb47HGevf_G7-24" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="xQ3fcUAlNb47HGevf_G7-23" target="xQ3fcUAlNb47HGevf_G7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQ3fcUAlNb47HGevf_G7-23" value="Use Hahser::Default() to create Hasher" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="265" y="14" width="116" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
