@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-12T17:56:40.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="MpJzTIlA58z5pm5Sf6y8" version="21.0.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-12T17:57:24.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="BhBEbHmR7ZfTAGwnHN4Q" version="21.0.6" type="github" pages="3">
   <diagram name="ffi" id="Fa7SLIgffgOPm7Xxr432">
-    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qyhlqu4fTLKo0oXxRMzL-4" value="#[repr(C)]&#xa;struct" style="fontStyle=1;fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
-          <mxGeometry x="230" y="100" width="140" height="30" as="geometry" />
+          <mxGeometry x="260" y="100" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qyhlqu4fTLKo0oXxRMzL-6" value="#[repr(C)]&#xa;tag" style="fontStyle=1;fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
           <mxGeometry x="400" y="50" width="140" height="30" as="geometry" />
