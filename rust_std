@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-13T16:59:27.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="RpFBtXv8e8MU-N7nWF3L" version="21.0.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-13T17:01:44.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="AiQgANf9UCxa_ndnTiJk" version="21.0.6" type="github" pages="7">
   <diagram id="tneqtSMl_0qvg0epJMzq" name="Memo of Coding">
     <mxGraphModel dx="1221" dy="587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,11 +11,11 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ffi" id="Fa7SLIgffgOPm7Xxr432">
-    <mxGraphModel dx="1221" dy="587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="866" dy="587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Qyhlqu4fTLKo0oXxRMzL-5" value="each variant as" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Qyhlqu4fTLKo0oXxRMzL-3" target="Qyhlqu4fTLKo0oXxRMzL-4" edge="1">
+        <mxCell id="Qyhlqu4fTLKo0oXxRMzL-5" value="union of&amp;nbsp;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Qyhlqu4fTLKo0oXxRMzL-3" target="Qyhlqu4fTLKo0oXxRMzL-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qyhlqu4fTLKo0oXxRMzL-3" value="#[repr(C)]&#xa;enum" style="fontStyle=1;" parent="1" vertex="1">
@@ -57,6 +57,12 @@
             <mxGeometry x="30" y="10" width="340" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="iQCNx93IFAgdq0qamNG3-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="iQCNx93IFAgdq0qamNG3-1" target="Qyhlqu4fTLKo0oXxRMzL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQCNx93IFAgdq0qamNG3-1" value="each enum varaint corresponding to one struct" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="207" y="168" width="163" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
