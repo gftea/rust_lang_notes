@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-13T17:01:44.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="AiQgANf9UCxa_ndnTiJk" version="21.0.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-13T17:14:04.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="y-0yg_uBRvY2oRoUAHyy" version="21.0.6" type="github" pages="7">
   <diagram id="tneqtSMl_0qvg0epJMzq" name="Memo of Coding">
     <mxGraphModel dx="1221" dy="587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -424,6 +424,24 @@
         </mxCell>
         <mxCell id="dPzdO39nkqAUPvDx4bTt-7" value="unit-only enum" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="445.99668701171873" y="166" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rxwdx0AZGByM-aeqKt7k-1" value="forget" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="247.66668701171875" y="329" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rxwdx0AZGByM-aeqKt7k-2" value="ManuallyDrop" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="247.66668701171875" y="249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rxwdx0AZGByM-aeqKt7k-4" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Rxwdx0AZGByM-aeqKt7k-3" target="Rxwdx0AZGByM-aeqKt7k-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rxwdx0AZGByM-aeqKt7k-3" value="dangerous, can cause double-free&amp;nbsp;" style="text;strokeColor=#b85450;align=center;fillColor=#f8cecc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="423" y="347" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rxwdx0AZGByM-aeqKt7k-6" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Rxwdx0AZGByM-aeqKt7k-5" target="Rxwdx0AZGByM-aeqKt7k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rxwdx0AZGByM-aeqKt7k-5" value="preferred way" style="text;strokeColor=#82b366;align=center;fillColor=#d5e8d4;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="433.66668701171875" y="271" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
