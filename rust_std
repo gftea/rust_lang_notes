@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-13T14:27:48.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="7X8qdyrB5H5ou2-W5YAu" version="21.0.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-13T16:59:13.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="sCvA92Zgcq9sQqWItLWW" version="21.0.6" type="github" pages="7">
   <diagram id="tneqtSMl_0qvg0epJMzq" name="Memo of Coding">
     <mxGraphModel dx="1221" dy="587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -395,6 +395,29 @@
         </mxCell>
         <mxCell id="uQi7gSTmYsNSC2XdzSpx-14" value="conversion" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="77.99668701171875" y="325" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zwRZYtQ2Mye5v1uy1MLk" name="mem">
+    <mxGraphModel dx="866" dy="587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dPzdO39nkqAUPvDx4bTt-2" value="discriminant" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="177.66668701171875" y="122" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPzdO39nkqAUPvDx4bTt-6" value="opaque reference" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="dPzdO39nkqAUPvDx4bTt-4" target="dPzdO39nkqAUPvDx4bTt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPzdO39nkqAUPvDx4bTt-4" value="mem::discriminant" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="422.99668701171873" y="38" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPzdO39nkqAUPvDx4bTt-8" value="can cast to&amp;nbsp;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="dPzdO39nkqAUPvDx4bTt-7" target="dPzdO39nkqAUPvDx4bTt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPzdO39nkqAUPvDx4bTt-7" value="unit-only enum" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="422.99668701171873" y="169" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
