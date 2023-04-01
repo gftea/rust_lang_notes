@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2023-04-01T11:23:17.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.2" etag="5CoHApeZs9iJuzyoaf29" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-01T11:29:25.005Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8-nLiPzRvps7tbIAntHC" version="21.1.2" type="github">
   <diagram name="Page-1" id="mvw6WMUF4Wpm8B8BT8ln">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbtlgftWzbYkIjJaBkLo-1" target="JbtlgftWzbYkIjJaBkLo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-6" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbtlgftWzbYkIjJaBkLo-1" target="JbtlgftWzbYkIjJaBkLo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbtlgftWzbYkIjJaBkLo-1" target="JbtlgftWzbYkIjJaBkLo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-8" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbtlgftWzbYkIjJaBkLo-1" target="JbtlgftWzbYkIjJaBkLo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbtlgftWzbYkIjJaBkLo-1" target="JbtlgftWzbYkIjJaBkLo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbtlgftWzbYkIjJaBkLo-1" target="JbtlgftWzbYkIjJaBkLo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JbtlgftWzbYkIjJaBkLo-1" target="JbtlgftWzbYkIjJaBkLo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-1" value="Fundamentals" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-4" value="Linux kernel" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-10" value="Compiler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-11" value="Computer Architecture" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-19" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbtlgftWzbYkIjJaBkLo-15" target="JbtlgftWzbYkIjJaBkLo-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-21" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbtlgftWzbYkIjJaBkLo-15" target="JbtlgftWzbYkIjJaBkLo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-28" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbtlgftWzbYkIjJaBkLo-15" target="JbtlgftWzbYkIjJaBkLo-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-15" value="ecosystem" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-16" value="Netowrk programming" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-17" value="Database" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-18" value="eBFP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-20" value="WASM/WASI" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="https://github.com/fermyon/spin" link="https://github.com/fermyon/spin" id="JbtlgftWzbYkIjJaBkLo-24">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="820" y="140" width="200" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://aya-rs.dev/" link="https://aya-rs.dev/" id="JbtlgftWzbYkIjJaBkLo-25">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="820" y="70" width="130" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-27" value="Networking" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="224" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="https://libp2p.io/" link="https://libp2p.io/" id="JbtlgftWzbYkIjJaBkLo-29">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="820" y="235.9999755859375" width="112" height="36" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-30" value="Compute and Data" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="337.9999755859375" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
