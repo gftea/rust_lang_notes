@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-01T17:03:19.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="NiVv2WRL6rKdXKWqvcI7" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-01T17:03:32.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qMBmoRUcuGMKmmzwzL15" version="21.1.2" type="github">
   <diagram name="Page-1" id="mvw6WMUF4Wpm8B8BT8ln">
     <mxGraphModel dx="1562" dy="779" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -120,7 +120,7 @@
         <mxCell id="JbtlgftWzbYkIjJaBkLo-41" value="Sharding" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="363" y="621" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JbtlgftWzbYkIjJaBkLo-43" value="memcaching" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JbtlgftWzbYkIjJaBkLo-43" value="memcache" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="363" y="713" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
